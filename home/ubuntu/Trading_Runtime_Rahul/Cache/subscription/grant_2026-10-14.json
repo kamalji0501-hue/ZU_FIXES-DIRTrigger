@@ -1,0 +1,20 @@
+{
+  "allowed": true,
+  "end_date": "2027-01-07",
+  "error": "",
+  "max_ato_lots_batman": 4000,
+  "max_ato_lots_directional": 1000,
+  "max_sell_lots_batman": 1000,
+  "max_sell_lots_directional": 1000,
+  "name": "Aman",
+  "reason": "Subscription active.",
+  "serial_number": "",
+  "server_alias": "Kamal AWS",
+  "server_id": "http://3.6.92.213:8789/",
+  "source": "apps_script",
+  "start_date": "2026-09-01",
+  "status": "ACTIVE",
+  "ui_status": "ACTIVE",
+  "valid_for_date": "2026-10-14",
+  "validated_at": "2026-10-14T14:09:23.578649+05:30"
+}

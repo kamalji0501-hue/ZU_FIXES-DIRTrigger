@@ -1,0 +1,20 @@
+{
+  "allowed": true,
+  "end_date": "2027-01-07",
+  "error": "",
+  "max_ato_lots_batman": 50,
+  "max_ato_lots_directional": 50,
+  "max_sell_lots_batman": 400,
+  "max_sell_lots_directional": 100,
+  "name": "Aman",
+  "reason": "Subscription active.",
+  "serial_number": "2",
+  "server_alias": "Chandresh aws",
+  "server_id": "http://13.206.80.173:8789/",
+  "source": "apps_script",
+  "start_date": "2026-09-01",
+  "status": "ACTIVE",
+  "ui_status": "ACTIVE",
+  "valid_for_date": "2026-10-01",
+  "validated_at": "2026-10-01T08:00:02.914750+05:30"
+}

@@ -1,0 +1,2 @@
+ts_ist,date_ist,incident_id,status,operator_status,event_type,domain,module,scenario,severity,error_type,message,cause_hint,repeat_count,context_json
+06:43:52.880 IST,2026-10-20,kavach2::log_error,REPEAT,open,incident,kavach2,kavach,log_error,warning,NetworkError,KAVACH handler error: Bad Gateway | NetworkError: Bad Gateway,,2,"{""logger"": ""batman.kavach2"", ""pathname"": ""/home/ubuntu/rahul_Changes/kavach-2.0/bat_telegram/bots/kavach2/bot.py"", ""lineno"": 1014, ""funcName"": ""_on_handler_error"", ""exception_type"": ""NetworkError""}"

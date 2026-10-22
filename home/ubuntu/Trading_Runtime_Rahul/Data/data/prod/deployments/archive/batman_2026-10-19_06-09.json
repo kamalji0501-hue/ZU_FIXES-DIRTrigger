@@ -1,0 +1,95 @@
+{
+  "schema_version": 1.1,
+  "strategy": "directional",
+  "order_mode": "live",
+  "deployed_at": "2026-10-19T06:09:41.321843+00:00",
+  "registered_at": "Monday 19-Oct-2026 at 06:09",
+  "file_name": "batman_2026-10-19_06-09.json",
+  "source": "kavach_web",
+  "retrace_points": -490,
+  "ato_manage_sides": "pe",
+  "registration_scope": {
+    "schema_version": 2,
+    "pe_enabled": true,
+    "ce_enabled": false,
+    "pe_managed_lots": 33,
+    "ce_managed_lots": null,
+    "pe_ato_lots": 33,
+    "ce_ato_lots": null,
+    "lot_size": 65,
+    "expiry": "2026-10-27",
+    "expiry_label": "Expiry \u2014 27 Oct 2026"
+  },
+  "positions": {
+    "pe_buy": {
+      "symbol": "NIFTY26OCT22800PE",
+      "display_symbol": "NIFTY 26OCT 22800 PE",
+      "strike": 22800,
+      "qty": 2145,
+      "avg_price": 120.75,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "26OCT",
+      "instrument_token": ""
+    },
+    "pe_margin_hedge": null,
+    "pe_dyn_hedge": null,
+    "pe_sell": {
+      "symbol": "NIFTY26OCT23300PE",
+      "display_symbol": "NIFTY 26OCT 23300 PE",
+      "strike": 23300,
+      "qty": 1950,
+      "avg_price": 408.46,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "SHORT",
+      "transaction_type": "SELL",
+      "lot_size": 65,
+      "expiry": "26OCT",
+      "instrument_token": ""
+    },
+    "ce_buy": null,
+    "ce_margin_hedge": null,
+    "ce_dyn_hedge": null,
+    "ce_sell": null
+  },
+  "ato": {
+    "pe_protect_symbol": "NIFTY26OCT22750PE",
+    "pe_protect_strike": 22750,
+    "pe_protect_strike_mode": "FIXED",
+    "ce_protect_symbol": null,
+    "ce_protect_strike": null,
+    "ce_protect_strike_mode": null,
+    "ato_step": 50,
+    "ce_entry_buffer": {
+      "type": "CUSTOM",
+      "value": "0"
+    },
+    "pe_entry_buffer": {
+      "type": "CUSTOM",
+      "value": "500"
+    },
+    "ce_retrace_buffer": {
+      "type": "CUSTOM",
+      "value": "0"
+    },
+    "pe_retrace_buffer": {
+      "type": "CUSTOM",
+      "value": "-490"
+    },
+    "ce_entry_buffer_points": 0,
+    "pe_entry_buffer_points": 500,
+    "ce_retrace_points": 0,
+    "pe_retrace_points": -490,
+    "poll_interval_seconds": 2
+  },
+  "status": "armed",
+  "calendar": {
+    "expiry_date": "2026-10-27",
+    "source": "registration_scope"
+  },
+  "lots_synced_at": "2026-10-19T07:58:14.509866+00:00"
+}

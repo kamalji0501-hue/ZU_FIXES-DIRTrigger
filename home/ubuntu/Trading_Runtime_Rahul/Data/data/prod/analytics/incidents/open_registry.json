@@ -1,0 +1,24 @@
+{
+  "kavach2::log_error": {
+    "operator_status": "open",
+    "domain": "kavach2",
+    "scenario": "log_error",
+    "fingerprint": "log error::kavach broker bootstrap failed: zerodha profile failed: incorrect `api_key` or `access_token`.",
+    "first_seen": "2026-10-22T22:49:29.030374+05:30",
+    "last_seen": "2026-10-22T23:19:53.369390+05:30",
+    "repeat_count": 16,
+    "title": "Log Error",
+    "repeat_jagran_sent": true
+  },
+  "kavach2::log_critical": {
+    "operator_status": "open",
+    "domain": "kavach2",
+    "scenario": "log_critical",
+    "fingerprint": "log critical::pnl exit fire reason=manual_exit pnl=526.50 level=none",
+    "first_seen": "2026-10-13T14:47:33.492840+05:30",
+    "last_seen": "2026-10-13T14:47:33.492840+05:30",
+    "repeat_count": 1,
+    "title": "Log Critical",
+    "repeat_jagran_sent": false
+  }
+}

@@ -1,0 +1,3 @@
+ts_ist,date_ist,event_type,status_label,source,scenario,severity,category,title,error_message,next_action,resolution_message,incident_id,repeat_count,routed_to_source,source_delivery_ok,routed_to_jagran,jagran_delivery_ok
+03:02:06.374 IST,2026-09-14,incident,TRIGGERED,KAVACH2,log_error,warning,kavach2,Log Error,KAVACH handler error: httpx.ReadError:  | NetworkError: httpx.ReadError: ,,,kavach2::log_error,1,False,False,False,False
+06:41:05.918 IST,2026-09-14,incident,TRIGGERED,KAVACH2,log_error,warning,kavach2,Log Error,KAVACH handler error: Bad Gateway | NetworkError: Bad Gateway,,,kavach2::log_error,1,False,False,False,False

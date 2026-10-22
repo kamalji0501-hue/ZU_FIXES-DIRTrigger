@@ -1,0 +1,14 @@
+{
+  "ltp": 22811.35,
+  "updated_at": "2026-10-22T07:06:26.145485+05:30",
+  "last_changed_at": "2026-10-22T07:06:26.145485+05:30",
+  "source": "ZERODHA_WS",
+  "feed_healthy": true,
+  "poll_interval_seconds": 2,
+  "consecutive_failures": 0,
+  "unchanged_seconds": 0.0,
+  "collector": "datafeedbot",
+  "collector_pid": 1879435,
+  "ready_for_consumers": true,
+  "cache_age_seconds": 0.0
+}

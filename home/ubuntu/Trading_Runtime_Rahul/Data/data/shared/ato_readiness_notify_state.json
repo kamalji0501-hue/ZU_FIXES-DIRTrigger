@@ -1,0 +1,8 @@
+{
+  "last_sent_ts": 1792691377.582895,
+  "last_text": "ATO BLOCKED: NIFTY cache stale 58391s \u2014 check Datafeedbot; Deployment not confirmed \u2014 Register / Arm Kavach first. Register / Arm Kavach first.",
+  "armed": false,
+  "hard_key": "nifty_cache_stale|deployment_not_confirmed|outside_monitoring_window",
+  "summary": "ATO BLOCKED \u2014 NIFTY cache stale 58442s \u2014 check Datafeedbot; Deployment not confirmed \u2014 Register / Arm Kavach first",
+  "checked_at": "2026-10-22T17:50:27+00:00"
+}

@@ -1,0 +1,2 @@
+ts_ist,date_ist,event_type,status_label,source,scenario,severity,category,title,error_message,next_action,resolution_message,incident_id,repeat_count,routed_to_source,source_delivery_ok,routed_to_jagran,jagran_delivery_ok
+06:41:18.560 IST,2026-10-19,incident,TRIGGERED,KAVACH2,log_error,warning,kavach2,Log Error,KAVACH handler error: Bad Gateway | NetworkError: Bad Gateway,,,kavach2::log_error,1,False,False,False,False

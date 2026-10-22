@@ -1,0 +1,4 @@
+ts_ist,date_ist,event_type,status_label,source,scenario,severity,category,title,error_message,next_action,resolution_message,incident_id,repeat_count,routed_to_source,source_delivery_ok,routed_to_jagran,jagran_delivery_ok
+09:30:55.801 IST,2026-09-21,incident,TRIGGERED,KAVACH2,log_error,warning,kavach2,Log Error,PE managed qty mismatch — halting side: ['NIFTY2692223100PE: broker=0 managed=1300'],,,kavach2::log_error,1,False,False,False,False
+09:30:56.455 IST,2026-09-21,incident,TRIGGERED,KAVACH2,log_error,warning,kavach2,Log Error,PE side HALTED reason=batman_qty_drift — PE will not buy until Resume. Check broker book.,,,kavach2::log_error,1,False,False,False,False
+15:15:05.497 IST,2026-09-21,incident,TRIGGERED,KAVACH2,log_error,warning,kavach2,Log Error,RATRIPAL tick failed: 'NoneType' object has no attribute 'get',,,kavach2::log_error,1,False,False,False,False

@@ -1,0 +1,3637 @@
+{
+  "book": {
+    "dir-bull-0": {
+      "cycle_id": "dir-bull-0",
+      "event_id": "dir-bull-test-0",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-1": {
+      "cycle_id": "dir-bull-1",
+      "event_id": "dir-bull-test-1",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-10": {
+      "cycle_id": "dir-bull-10",
+      "event_id": "dir-bull-test-10",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-11": {
+      "cycle_id": "dir-bull-11",
+      "event_id": "dir-bull-test-11",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-12": {
+      "cycle_id": "dir-bull-12",
+      "event_id": "dir-bull-test-12",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-13": {
+      "cycle_id": "dir-bull-13",
+      "event_id": "dir-bull-test-13",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-14": {
+      "cycle_id": "dir-bull-14",
+      "event_id": "dir-bull-test-14",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-15": {
+      "cycle_id": "dir-bull-15",
+      "event_id": "dir-bull-test-15",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-16": {
+      "cycle_id": "dir-bull-16",
+      "event_id": "dir-bull-test-16",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-17": {
+      "cycle_id": "dir-bull-17",
+      "event_id": "dir-bull-test-17",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-18": {
+      "cycle_id": "dir-bull-18",
+      "event_id": "dir-bull-test-18",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-19": {
+      "cycle_id": "dir-bull-19",
+      "event_id": "dir-bull-test-19",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-2": {
+      "cycle_id": "dir-bull-2",
+      "event_id": "dir-bull-test-2",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-20": {
+      "cycle_id": "dir-bull-20",
+      "event_id": "dir-bull-test-20",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-3": {
+      "cycle_id": "dir-bull-3",
+      "event_id": "dir-bull-test-3",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-4": {
+      "cycle_id": "dir-bull-4",
+      "event_id": "dir-bull-test-4",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-5": {
+      "cycle_id": "dir-bull-5",
+      "event_id": "dir-bull-test-5",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-6": {
+      "cycle_id": "dir-bull-6",
+      "event_id": "dir-bull-test-6",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-7": {
+      "cycle_id": "dir-bull-7",
+      "event_id": "dir-bull-test-7",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-8": {
+      "cycle_id": "dir-bull-8",
+      "event_id": "dir-bull-test-8",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-9": {
+      "cycle_id": "dir-bull-9",
+      "event_id": "dir-bull-test-9",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-0": {
+      "cycle_id": "dir-bull-b-0",
+      "event_id": "dir-bull-b-0",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-1": {
+      "cycle_id": "dir-bull-b-1",
+      "event_id": "dir-bull-b-1",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-10": {
+      "cycle_id": "dir-bull-b-10",
+      "event_id": "dir-bull-b-10",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-11": {
+      "cycle_id": "dir-bull-b-11",
+      "event_id": "dir-bull-b-11",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-12": {
+      "cycle_id": "dir-bull-b-12",
+      "event_id": "dir-bull-b-12",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-13": {
+      "cycle_id": "dir-bull-b-13",
+      "event_id": "dir-bull-b-13",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-14": {
+      "cycle_id": "dir-bull-b-14",
+      "event_id": "dir-bull-b-14",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-15": {
+      "cycle_id": "dir-bull-b-15",
+      "event_id": "dir-bull-b-15",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-16": {
+      "cycle_id": "dir-bull-b-16",
+      "event_id": "dir-bull-b-16",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-17": {
+      "cycle_id": "dir-bull-b-17",
+      "event_id": "dir-bull-b-17",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-18": {
+      "cycle_id": "dir-bull-b-18",
+      "event_id": "dir-bull-b-18",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-19": {
+      "cycle_id": "dir-bull-b-19",
+      "event_id": "dir-bull-b-19",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-2": {
+      "cycle_id": "dir-bull-b-2",
+      "event_id": "dir-bull-b-2",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-20": {
+      "cycle_id": "dir-bull-b-20",
+      "event_id": "dir-bull-b-20",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-3": {
+      "cycle_id": "dir-bull-b-3",
+      "event_id": "dir-bull-b-3",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-4": {
+      "cycle_id": "dir-bull-b-4",
+      "event_id": "dir-bull-b-4",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-5": {
+      "cycle_id": "dir-bull-b-5",
+      "event_id": "dir-bull-b-5",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-6": {
+      "cycle_id": "dir-bull-b-6",
+      "event_id": "dir-bull-b-6",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-7": {
+      "cycle_id": "dir-bull-b-7",
+      "event_id": "dir-bull-b-7",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-8": {
+      "cycle_id": "dir-bull-b-8",
+      "event_id": "dir-bull-b-8",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    },
+    "dir-bull-b-9": {
+      "cycle_id": "dir-bull-b-9",
+      "event_id": "dir-bull-b-9",
+      "exclude": [
+        "OVERNIGHT",
+        "OPEN_TRIAL"
+      ],
+      "legs": [
+        {
+          "key": "pe_buy",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_BUY",
+          "side": "BUY",
+          "strike": 25000,
+          "tag": "Core Buy",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_margin_hedge",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "MARGIN_HEDGE",
+          "side": "BUY",
+          "strike": 24500,
+          "tag": "Margin Hedge",
+          "transaction": "BUY"
+        },
+        {
+          "key": "pe_sell",
+          "lots": 1,
+          "opt": "PE",
+          "qty": 65,
+          "role": "CORE_SELL",
+          "side": "SELL",
+          "strike": 25200,
+          "tag": "PE Sell",
+          "transaction": "SELL"
+        }
+      ],
+      "manager": {},
+      "opened_lots": 1,
+      "order_id": null
+    }
+  },
+  "events": [],
+  "last_action": "HEDGE",
+  "last_delivery": null,
+  "last_event": {
+    "action": "POLL",
+    "allowed_lots": 0,
+    "event_id": "live-1bdbc9f40b224b80ac145857e709c11f",
+    "master_vps_id": "master-anand",
+    "payload": {
+      "poll_interval": "1",
+      "strategy": "directional"
+    },
+    "schema_version": 1,
+    "seq": 104,
+    "strategy": "directional",
+    "summary": "Poll interval 1"
+  },
+  "last_seq_received": 9020,
+  "open_cycles": {},
+  "punch_log": [
+    "DRY_RUN would punch lots=1 cycle=dir-bull-0",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-1",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-2",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-3",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-4",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-5",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-6",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-7",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-8",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-9",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-10",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-11",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-12",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-13",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-14",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-15",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-16",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-17",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-18",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-19",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-20",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-0",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-1",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-2",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-3",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-4",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-5",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-6",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-7",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-8",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-9",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-10",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-11",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-12",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-13",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-14",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-15",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-16",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-17",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-18",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-19",
+    "DRY_RUN would punch lots=1 cycle=dir-bull-b-20"
+  ],
+  "recv_log": [
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "batman",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-02 14:00:22"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 4",
+      "ts": "2026-10-02 14:03:18"
+    },
+    {
+      "accepted": true,
+      "action": "COMPLETE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Batman complete",
+      "ts": "2026-10-02 14:04:01"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-02 14:50:09"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-02 14:50:10"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-02 14:50:15"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-02 14:50:18"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-02 15:08:38"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-02 15:08:39"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-02 15:08:40"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-02 15:08:41"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-02 15:08:44"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-02 15:08:45"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-02 15:11:29"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-02 15:11:30"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-02 15:11:31"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-03 02:42:17"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-03 02:42:57"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-04 17:24:04"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-05 03:31:49"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-05 04:04:58"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-05 04:10:32"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 2",
+      "ts": "2026-10-05 04:11:44"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-05 04:11:48"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": 5,
+      "strategy": "",
+      "summary": "Allowed lots 5",
+      "ts": "2026-10-05 04:15:44"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": 2,
+      "strategy": "",
+      "summary": "Allowed lots 2",
+      "ts": "2026-10-05 04:16:39"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": 2,
+      "strategy": "",
+      "summary": "Allowed lots 2",
+      "ts": "2026-10-05 04:16:39"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 2",
+      "ts": "2026-10-05 04:16:49"
+    },
+    {
+      "accepted": true,
+      "action": "DEPLOY_REGISTER",
+      "detail": "applied",
+      "qty": 1,
+      "strategy": "directional",
+      "summary": "Deploy and register",
+      "ts": "2026-10-05 04:22:50"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-05 04:23:29"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-05 04:23:58"
+    },
+    {
+      "accepted": true,
+      "action": "SYNC_LOTS",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Sync lots from broker",
+      "ts": "2026-10-05 04:26:52"
+    },
+    {
+      "accepted": true,
+      "action": "DEPLOY_DIRECTIONAL",
+      "detail": "applied",
+      "qty": 1,
+      "strategy": "directional",
+      "summary": "Directional deploy",
+      "ts": "2026-10-05 04:35:24"
+    },
+    {
+      "accepted": true,
+      "action": "REGISTER",
+      "detail": "applied",
+      "qty": 1,
+      "strategy": "directional",
+      "summary": "Register",
+      "ts": "2026-10-05 04:41:24"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 2",
+      "ts": "2026-10-05 04:43:21"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-05 04:43:39"
+    },
+    {
+      "accepted": true,
+      "action": "DEPLOY_DIRECTIONAL",
+      "detail": "applied",
+      "qty": 1,
+      "strategy": "directional",
+      "summary": "Directional deploy",
+      "ts": "2026-10-05 04:44:35"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Buffer save",
+      "ts": "2026-10-05 04:47:27"
+    },
+    {
+      "accepted": true,
+      "action": "SAFE_EXIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Stop loss save",
+      "ts": "2026-10-05 04:53:19"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Target save",
+      "ts": "2026-10-05 04:53:19"
+    },
+    {
+      "accepted": true,
+      "action": "SAFE_EXIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Stop loss save",
+      "ts": "2026-10-05 04:53:34"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Target save",
+      "ts": "2026-10-05 04:53:34"
+    },
+    {
+      "accepted": true,
+      "action": "SAFE_EXIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Stop loss save",
+      "ts": "2026-10-05 04:53:58"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Target save",
+      "ts": "2026-10-05 04:53:58"
+    },
+    {
+      "accepted": true,
+      "action": "SAFE_EXIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Stop loss save",
+      "ts": "2026-10-05 04:54:54"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Target save",
+      "ts": "2026-10-05 04:54:54"
+    },
+    {
+      "accepted": false,
+      "action": "SYNC_LOTS",
+      "detail": "No active deployment. Register first.",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Sync lots from broker",
+      "ts": "2026-10-05 05:04:39"
+    },
+    {
+      "accepted": true,
+      "action": "DEPLOY_DIRECTIONAL",
+      "detail": "applied",
+      "qty": 1,
+      "strategy": "directional",
+      "summary": "Directional deploy",
+      "ts": "2026-10-05 05:05:52"
+    },
+    {
+      "accepted": true,
+      "action": "SYNC_LOTS",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Sync lots from broker",
+      "ts": "2026-10-05 05:06:32"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-05 05:07:22"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-05 06:01:07"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-05 06:01:17"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-05 06:04:19"
+    },
+    {
+      "accepted": false,
+      "action": "POLL",
+      "detail": "copy off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-05 06:48:03"
+    },
+    {
+      "accepted": false,
+      "action": "TAKE_PROFIT",
+      "detail": "copy off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-05 07:19:02"
+    },
+    {
+      "accepted": false,
+      "action": "SAFE_EXIT",
+      "detail": "copy off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Stop loss save",
+      "ts": "2026-10-05 07:19:15"
+    },
+    {
+      "accepted": false,
+      "action": "SAFE_EXIT",
+      "detail": "copy off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Stop loss save",
+      "ts": "2026-10-05 07:19:21"
+    },
+    {
+      "accepted": false,
+      "action": "SAFE_EXIT",
+      "detail": "copy off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Stop loss save",
+      "ts": "2026-10-05 07:19:39"
+    },
+    {
+      "accepted": false,
+      "action": "TAKE_PROFIT",
+      "detail": "copy off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-05 08:11:43"
+    },
+    {
+      "accepted": false,
+      "action": "FLATTEN",
+      "detail": "copy off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Emergency exit",
+      "ts": "2026-10-05 08:13:36"
+    },
+    {
+      "accepted": false,
+      "action": "COMPLETE",
+      "detail": "copy off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Batman complete",
+      "ts": "2026-10-05 08:16:53"
+    },
+    {
+      "accepted": false,
+      "action": "COMPLETE",
+      "detail": "copy off",
+      "qty": "",
+      "strategy": "batman",
+      "summary": "Batman complete",
+      "ts": "2026-10-05 08:57:46"
+    },
+    {
+      "accepted": false,
+      "action": "DEPLOY",
+      "detail": "copy off",
+      "qty": "1",
+      "strategy": "batman",
+      "summary": "Batman deploy",
+      "ts": "2026-10-05 09:02:27"
+    },
+    {
+      "accepted": false,
+      "action": "REGISTER",
+      "detail": "copy off",
+      "qty": "",
+      "strategy": "batman",
+      "summary": "Register",
+      "ts": "2026-10-05 09:04:41"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-05 09:05:37"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-05 09:56:44"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-05 09:56:52"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-05 13:25:53"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-05 16:24:21"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-05 16:24:31"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-06 03:56:07"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-06 03:56:14"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-06 04:22:58"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-06 04:23:00"
+    },
+    {
+      "accepted": true,
+      "action": "COMPLETE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "batman",
+      "summary": "Batman complete",
+      "ts": "2026-10-06 04:23:10"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": 2,
+      "strategy": "",
+      "summary": "Allowed lots 2",
+      "ts": "2026-10-06 04:23:56"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": 2,
+      "strategy": "",
+      "summary": "Allowed lots 2",
+      "ts": "2026-10-06 04:23:56"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-06 04:24:30"
+    },
+    {
+      "accepted": true,
+      "action": "DEPLOY_REGISTER",
+      "detail": "applied",
+      "qty": 10,
+      "strategy": "directional",
+      "summary": "Deploy and register",
+      "ts": "2026-10-06 04:26:34"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-06 04:27:56"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-06 04:45:12"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-06 04:45:35"
+    },
+    {
+      "accepted": true,
+      "action": "DEPLOY_DIRECTIONAL",
+      "detail": "applied",
+      "qty": 10,
+      "strategy": "directional",
+      "summary": "Directional deploy",
+      "ts": "2026-10-06 06:16:42"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-06 06:27:29"
+    },
+    {
+      "accepted": true,
+      "action": "DEPLOY_DIRECTIONAL",
+      "detail": "applied",
+      "qty": 10,
+      "strategy": "directional",
+      "summary": "Directional deploy",
+      "ts": "2026-10-06 07:12:32"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-06 07:16:03"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach pause",
+      "ts": "2026-10-06 09:42:48"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-07 03:09:44"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-07 06:39:00"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-07 06:39:03"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-07 06:39:11"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-07 06:42:43"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-07 06:44:40"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-07 06:45:50"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-07 06:59:07"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach pause",
+      "ts": "2026-10-07 07:00:12"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-07 07:07:17"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Kavach pause",
+      "ts": "2026-10-07 07:08:56"
+    },
+    {
+      "accepted": true,
+      "action": "RESUME",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach resume",
+      "ts": "2026-10-07 07:09:49"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach pause",
+      "ts": "2026-10-07 07:29:53"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-07 07:42:28"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-08 05:24:56"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 2",
+      "ts": "2026-10-08 05:25:07"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-08 05:25:16"
+    },
+    {
+      "accepted": true,
+      "action": "SYNC_LOTS",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Sync lots from broker",
+      "ts": "2026-10-08 05:28:45"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:32:07"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:52:39"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:54:09"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:56:04"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:56:11"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:56:13"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:58:03"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:59:14"
+    },
+    {
+      "accepted": false,
+      "action": "SYNC_LOTS",
+      "detail": "copy off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Sync lots from broker",
+      "ts": "2026-10-08 06:36:10"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 06:48:59"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach pause",
+      "ts": "2026-10-08 06:50:21"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-08 06:50:46"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-08 06:52:33"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-08 06:53:18"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 06:53:32"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-08 07:02:16"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-08 07:02:47"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 07:02:54"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 07:05:10"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 07:10:23"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 0",
+      "ts": "2026-10-08 07:27:28"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 07:29:06"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-08 07:47:05"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-08 07:47:49"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-08 07:47:54"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 0",
+      "ts": "2026-10-08 07:48:00"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 07:51:41"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 08:01:49"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-08 08:08:10"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 08:31:46"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 08:33:43"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach pause",
+      "ts": "2026-10-08 08:35:18"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-08 08:35:30"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-08 08:37:49"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-08 08:37:56"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 08:41:03"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 08:48:42"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 08:52:42"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-08 09:04:45"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach pause",
+      "ts": "2026-10-08 09:34:29"
+    },
+    {
+      "accepted": true,
+      "action": "COMPLETE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Batman complete",
+      "ts": "2026-10-08 10:13:16"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-09 02:56:12"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-09 02:56:16"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-09 04:17:34"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-09 04:17:36"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach pause",
+      "ts": "2026-10-09 08:19:19"
+    },
+    {
+      "accepted": true,
+      "action": "RESUME",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach resume",
+      "ts": "2026-10-09 08:19:22"
+    },
+    {
+      "accepted": true,
+      "action": "COMPLETE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Batman complete",
+      "ts": "2026-10-09 08:19:27"
+    },
+    {
+      "accepted": true,
+      "action": "COMPLETE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Batman complete",
+      "ts": "2026-10-09 08:19:35"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-15 05:17:28"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-15 05:18:34"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-15 05:59:08"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-16 07:46:06"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-16 07:48:51"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-17 09:27:13"
+    },
+    {
+      "accepted": false,
+      "action": "COMPLETE",
+      "detail": "copy off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Batman complete",
+      "ts": "2026-10-17 09:28:58"
+    },
+    {
+      "accepted": false,
+      "action": "HEDGE",
+      "detail": "copy off",
+      "qty": "",
+      "strategy": "batman",
+      "summary": "35% dynamic hedge on",
+      "ts": "2026-10-17 09:31:44"
+    },
+    {
+      "accepted": false,
+      "action": "HEDGE",
+      "detail": "copy off",
+      "qty": "",
+      "strategy": "batman",
+      "summary": "35% dynamic hedge off",
+      "ts": "2026-10-17 09:31:45"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-19 03:33:56"
+    },
+    {
+      "accepted": true,
+      "action": "SET_CAP",
+      "detail": "cap saved",
+      "qty": "",
+      "strategy": "",
+      "summary": "Allowed lots same",
+      "ts": "2026-10-19 03:33:57"
+    }
+  ],
+  "seen_ids": [
+    "live-1f07fc14cc25447f9805cb124573a236",
+    "live-d8609f8754b24b1d967214f715a855dd",
+    "live-6d4f820c48024eeba49b3f03a3ab3d83",
+    "dir-bull-test-0",
+    "dir-bull-test-1",
+    "dir-bull-test-2",
+    "dir-bull-test-3",
+    "dir-bull-test-4",
+    "dir-bull-test-5",
+    "dir-bull-test-6",
+    "dir-bull-test-7",
+    "dir-bull-test-8",
+    "dir-bull-test-9",
+    "dir-bull-test-10",
+    "dir-bull-test-11",
+    "dir-bull-test-12",
+    "dir-bull-test-13",
+    "dir-bull-test-14",
+    "dir-bull-test-15",
+    "dir-bull-test-16",
+    "dir-bull-test-17",
+    "dir-bull-test-18",
+    "dir-bull-test-19",
+    "dir-bull-test-20",
+    "dir-bull-b-0",
+    "dir-bull-b-1",
+    "dir-bull-b-2",
+    "dir-bull-b-3",
+    "dir-bull-b-4",
+    "dir-bull-b-5",
+    "dir-bull-b-6",
+    "dir-bull-b-7",
+    "dir-bull-b-8",
+    "dir-bull-b-9",
+    "dir-bull-b-10",
+    "dir-bull-b-11",
+    "dir-bull-b-12",
+    "dir-bull-b-13",
+    "dir-bull-b-14",
+    "dir-bull-b-15",
+    "dir-bull-b-16",
+    "dir-bull-b-17",
+    "dir-bull-b-18",
+    "dir-bull-b-19",
+    "dir-bull-b-20",
+    "live-68290fcbdd144d5ba938e852538cb6b4",
+    "live-0a3063d416804868899a59037ab0ddfd",
+    "live-149f6b720d5c4a52ab9a0070ea34a78d",
+    "live-8f21eaaa32a04210bdb023313e8e17d6",
+    "live-144c4f28237e4427a64a3df55b7c2f87",
+    "live-773d2de862b04c798cc8430432e28a63",
+    "live-5913181f40e943ec84f86af723a31452",
+    "live-de77285f7480482cadf88f0efe362194",
+    "live-20153fb58bd146648b9468b00553b5c6",
+    "live-c12b45d6af44436a9878f8d492265d69",
+    "live-aa4ad74486134f9fa92e817e694a150a",
+    "live-efc6b41d45f849d4a0f7e2737a823940",
+    "live-8b0d7339037a4e2797d0cde99a8203a0",
+    "live-65c2e18dd7c043099c3d5df30a4d88d1",
+    "live-97560bd416b3451f8e2643f29ada6e17",
+    "live-0c352561de8546eab7a0c11b760fedb5",
+    "live-150c666c24f14791aa9e9d2c89a6e170",
+    "live-01cc6e57f4d8472dbffb653c09011524",
+    "live-e22d19b4756245ea8395bcbd7919c86a",
+    "live-43a7c206c24e4836ab0401fa2ddce568",
+    "live-42e46b00c3604e448ce7044540da2291",
+    "live-bbbfe78a08764a06a9fda430e7c5ff08",
+    "live-9e7a6d84faef40aa9e8733ea1f310c41",
+    "live-b062d96ff09943e89d8f30b50ce81675",
+    "live-26a7ce84591541c6bbb27432942c2cc0",
+    "live-34a40d8b635a406b840dbb0a8045ee49",
+    "live-01d49e725fc9492c8e2821784d4beb4e",
+    "live-1caa6e7a468249d887c76581b0efcc0a",
+    "live-809011e60cad4fefb6fa3fc5026383a7",
+    "live-80ee9505a48749b1a27a998511aae2f6",
+    "live-5288bbb552ee4b6ca26d3d38560e3585",
+    "live-1425c2a809834e4c94d3db06d1fbf522",
+    "live-354420f754544e999f05a3b071c53885",
+    "live-84954e9d878b4136b35b957351a16b7e",
+    "live-ae1e665d09b645128e83c75395789ee5",
+    "live-2ed25a2ea61446a4acdcfab52b74af8a",
+    "live-22f47e8bcf2e42d58d7e4c248c0275a7",
+    "live-fa27a7c16a304d5ca4287b2c63c0e1c5",
+    "live-346abeccfa244101b86699b2f5b81df6",
+    "live-eadaf2ba944a41bca09e5d896d3565b0",
+    "live-96ea9483fb784f74afd67f321d81bd4d",
+    "live-45e3d6ad7eeb47c69f3076d61b7f3d32",
+    "live-98b8d5097cc64ca9997797c11600519f",
+    "live-e7b6ef45fe6d4881866bba7a32dbc80f",
+    "live-cccabb7e06004ba194cba725e3e8ee91",
+    "live-7688bbb196184fdb8d708cada76f40dd",
+    "live-d8472f4e19ce44999af9b23d255a05a8",
+    "live-280de5696eeb457c907e3d049f73e672",
+    "live-c2d658d0501348d1ac361daf7e66b968",
+    "live-1d73c39e29214f399acabdd93bda49de",
+    "live-d796fa8ee3884efbbda41456da0b9d70",
+    "live-1a5a695fccdb404ba87396385df2f0ec",
+    "live-1094a1d8f5634c61b56bf9e7f324591c",
+    "live-2641ea3bbbc0420aaa013e982bfa2282",
+    "live-a94940e9cc9e415d8c6e0b8be3be2b92",
+    "live-d0724a384e0e4e7180e337b96d999649",
+    "live-93178ef1d53f4e47b767f9da0a8fd628",
+    "live-58dbddb13aed481288d0185e5e6a2ec3",
+    "live-d3aa35ca2bd4448c9c72e098fd53bbc7",
+    "live-91d41567ace840c18eb75e2aced4a32f",
+    "live-b0be15d4a6af41d0a72be7809b3350a1",
+    "live-2a9566e27c5d45c793eb3c32b13f04ae",
+    "live-9f7d93394f12460ca7921857395273d7",
+    "live-b5f92922a09e4714b09244941d2588ed",
+    "live-a6f6751691784192ac1b6f1197f136d0",
+    "live-696cae0ab98042bab4d1ff607e131c52",
+    "live-d5ac70a3d1e845be9c3bf685465b2005",
+    "live-04f0f117f8f74b158f4488c15eeb3775",
+    "live-209c02baf3d94b44b4df272e4fd3b327",
+    "live-5ce8ebe6fa654e0c8ec3f81793ce6a6e",
+    "live-3b021e26845742b99f945ccf1cc6b385",
+    "live-9939b303eb5a494e979c93eef57528dc",
+    "live-945de40263b742cda24e951c396d6731",
+    "live-536ae80ce3644274ba837bedd5f3b2df",
+    "live-d78836e5f9784ba08a8da911ac823384",
+    "live-65a725d1eec247239c78fdc9b202a132",
+    "live-0b926dcb2f0e44fdad01c411cd3a57a0",
+    "live-6d70cff8cc2c462ab6e1383f147aa6fc",
+    "live-0fd12d8a1df7475ebb8fdb5002c083a6",
+    "live-51718d7ee4494780a37e985497460d94",
+    "live-6b7f16ef28664c2c94eab3e8a89d9737",
+    "live-d949f83250bf468785b84757e8c0c208",
+    "live-d1b7be4d1a1b4bd4aedc50be05d760b1",
+    "live-8ede538770f3422badcfd2ee51d25771",
+    "live-96dc61ef6c3f4322951799c6539bcfe6",
+    "live-3d7eb07fce7f40b5877018ee7b4d6ad4",
+    "live-1ffafe8fb0c043bb89b0446448555f10",
+    "live-ae569f9068cf48bd9afda6dcb5909c4d",
+    "live-5b10635af6d243af9044303c5cbae527",
+    "live-f70c6fd424bf4859af28410da5530426",
+    "live-3bee4435432a48a5a4525712f9947020",
+    "live-388ce87918874db998b572d9b3de0dd6",
+    "live-bb4c4d116440485c921ec62ee9fa8b5b",
+    "live-ba1ae2ce9075421c97a90e70680ad471",
+    "live-e8928d2721b14b37a4c96bb64b5523fa",
+    "live-37e645b3dc954a099fdd8bac7312f0c0",
+    "live-a1df044b8f4543e787cac4272605203a",
+    "live-8ab4a5a5900344e9aa3b031bb5aab92a",
+    "live-1bdbc9f40b224b80ac145857e709c11f",
+    "live-66d3656caf754868a6f6b3e8e08521e1",
+    "live-e14ca04368a442e78bfb9a42d47f4de8",
+    "live-6ffbcff3c7bd43f18405dcc4383b264e"
+  ],
+  "send_log": [],
+  "seq": 0
+}

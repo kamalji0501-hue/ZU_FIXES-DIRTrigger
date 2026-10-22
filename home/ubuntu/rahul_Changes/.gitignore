@@ -1,0 +1,107 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Batman v3 — .gitignore
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Secrets — NEVER commit these ─────────────────────────────────────────────
+# Main broker config (keep config/.env.example if you add one)
+config/.env
+.env
+
+# Per-bot Telegram tokens (each bot has its own token file)
+telegram/bots/drishti/token.env
+telegram/bots/kavach/token.env
+telegram/bots/lakshmi/token.env
+
+# Catch-all: any token.env anywhere in the project
+**/token.env
+
+# VPS / AWS deploy secrets + generated status
+vps/deploy.env
+vps/lightsail.STATUS
+vps/smoke_last_report.json
+vps/prod_cutover.STATUS
+vps/deploy_package.STATUS
+**/*.pem
+
+# ── Logs & data (runtime lives in Trading_Runtime — see runtime_context.md) ─
+logs/
+logs_dev/
+logs_uat/
+logs_prod/
+logs_runtime/
+data_runtime/
+secrets_runtime/
+data/
+uat/deployed_positions/
+daily_test_execution/logs/
+daily_test_execution/*.xlsx
+daily_test_execution/LATEST_RUN.md
+config/local_runtime.json
+config/.env
+*.log
+
+# ── OS / editors ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# ── Tool caches (regenerated locally) ────────────────────────────────────────
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+**/.slingshot/
+
+# === GitHub Ops extras (Kamalji push 2026-08-06) ===
+**/token.env.bak
+**/access_token.json
+credentials/
+credentials_backup*/
+secrets_runtime/
+Dhan/
+Dependencies/
+Dependencies\\*
+*all_instrument*.csv
+Prod Data/
+screenshots/
+Screenshots*/
+logs_uat/
+.cursor/
+.agent/
+*.sqlite3
+*.pid
+*.lock
+auth.json
+auth/
+config/dhan_auth.env
+config/client_id.txt
+config/token.txt
+config/*secret*
+kavach-2.0/data/
+GO/data/
+telegram/**/token.env*
+vps_ops/venv/
+# Consolidated desktop credentials — never commit
+**/telegram/bots.env
+bots.env
+Credentials/
+
+# Rahul push safety 2026-08-06
+**/access_token.json
+**/sim_access_token.json
+Dhan/
