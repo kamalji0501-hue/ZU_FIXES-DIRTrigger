@@ -1,0 +1,11 @@
+ts_ist,date_ist,event_type,status_label,source,scenario,severity,category,title,error_message,next_action,resolution_message,incident_id,repeat_count,routed_to_source,source_delivery_ok,routed_to_jagran,jagran_delivery_ok
+03:02:04.793 IST,2026-07-17,incident,TRIGGERED,JAGRAN,log_error,warning,jagran,Log Error,JAGRAN handler error: Bad Gateway | NetworkError: Bad Gateway,,,jagran::log_error,1,False,False,False,False
+03:03:05.156 IST,2026-07-17,incident,TRIGGERED,DRISHTI,log_error,warning,drishti,Log Error,DRISHTI handler error | NetworkError: Bad Gateway,,,drishti::log_error,1,False,False,False,False
+03:05:48.316 IST,2026-07-17,incident,TRIGGERED,JAGRAN,log_error,warning,jagran,Log Error,JAGRAN handler error: There is no text in the message to edit | BadRequest: There is no text in the message to edit,,,jagran::log_error,1,False,False,False,False
+03:33:15.767 IST,2026-07-17,incident,REPEAT,JAGRAN,log_error,warning,jagran,Log Error,JAGRAN handler error: There is no text in the message to edit | BadRequest: There is no text in the message to edit,,,jagran::log_error,2,False,False,False,False
+04:00:28.760 IST,2026-07-17,incident,REPEAT,JAGRAN,log_error,warning,jagran,Log Error,JAGRAN handler error: There is no text in the message to edit | BadRequest: There is no text in the message to edit,,,jagran::log_error,3,False,False,False,False
+"04:00 IST, 17 Jul 2026",2026-07-17,incident,TRIGGERED,JAGRAN,incident_repeat_escalation,major,jagran,Repeating incident (3x): Log Error,"Domain: JAGRAN | Scenario: log_error
+Repeat count: 3 (threshold 3)
+Last error: JAGRAN handler error: There is no text in the message to edit | BadRequest: There is no text in the message to edit
+Cause hint: ",Inspect incident_dashboard.xlsx and domain CSV under data/analytics/incidents/by_domain/,,jagran::incident_repeat_escalation,1,False,False,True,True
+05:39:42.721 IST,2026-07-17,incident,REPEAT,JAGRAN,log_error,warning,jagran,Log Error,JAGRAN handler error: There is no text in the message to edit | BadRequest: There is no text in the message to edit,,,jagran::log_error,4,False,False,False,False

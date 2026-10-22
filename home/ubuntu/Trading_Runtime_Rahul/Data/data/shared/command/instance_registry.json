@@ -1,0 +1,154 @@
+{
+  "slots": 15,
+  "source": "registry",
+  "local_server_ids": [
+    "http://3.6.39.208:8789/"
+  ],
+  "poll": {
+    "state_sec": 30,
+    "margin_sec": 300
+  },
+  "instances": [
+    {
+      "id": "inst-anand",
+      "label": "Anand",
+      "slot": 1,
+      "license_server_id": "http://3.6.39.208:8789/",
+      "aws_account": "Kamal AWS",
+      "server_tag": "1",
+      "enabled": true,
+      "local": true
+    },
+    {
+      "id": "inst-aman",
+      "label": "Aman",
+      "slot": 2,
+      "license_server_id": "http://3.6.92.213:8789/",
+      "aws_account": "Kamal AWS",
+      "server_tag": "2",
+      "enabled": true,
+      "copy_key_env": "FLEET_COPY_KEY_AMAN"
+    },
+    {
+      "id": "inst-mm-siddiqui",
+      "label": "M M Siddiqui",
+      "slot": 3,
+      "license_server_id": "http://13.232.109.26:8789/",
+      "aws_account": "Kamal AWS",
+      "server_tag": "3",
+      "enabled": true,
+      "copy_key_env": "FLEET_COPY_KEY_AMAN"
+    },
+    {
+      "id": "inst-anil",
+      "label": "Anil",
+      "slot": 4,
+      "license_server_id": "http://3.111.242.135:8789/",
+      "aws_account": "Kamal AWS",
+      "server_tag": "4",
+      "enabled": true,
+      "copy_key_env": "FLEET_COPY_KEY_ANIL"
+    },
+    {
+      "id": "inst-tejas",
+      "label": "Tejas",
+      "slot": 5,
+      "license_server_id": "http://65.2.152.185:8789/",
+      "aws_account": "Pankaj AWS",
+      "server_tag": "5",
+      "enabled": true,
+      "copy_key_env": "FLEET_COPY_KEY_TEJAS"
+    },
+    {
+      "id": "inst-rajesh-malpani",
+      "label": "Rajesh Malpani",
+      "slot": 6,
+      "license_server_id": "http://13.233.129.35:8789/",
+      "aws_account": "Pankaj AWS",
+      "server_tag": "6",
+      "enabled": true,
+      "copy_key_env": "FLEET_COPY_KEY_RAJESH"
+    },
+    {
+      "id": "inst-abhishek",
+      "label": "Abhishek",
+      "slot": 7,
+      "license_server_id": "http://13.201.197.64:8789/",
+      "aws_account": "Kamal AWS",
+      "server_tag": "7",
+      "enabled": true,
+      "copy_key_env": "FLEET_COPY_KEY_ABHISHEK"
+    },
+    {
+      "id": "inst-gitesh-2",
+      "label": "Gitesh 2",
+      "slot": 8,
+      "license_server_id": "http://35.154.109.163:8789/",
+      "aws_account": "Kamal AWS",
+      "server_tag": "8",
+      "enabled": true,
+      "copy_key_env": "FLEET_COPY_KEY_GITESH2"
+    },
+    {
+      "id": "inst-mukul-tripathi",
+      "label": "Mukul Tripathi",
+      "slot": 9,
+      "license_server_id": "http://65.2.141.69:8789/",
+      "aws_account": "Kamal AWS",
+      "server_tag": "9",
+      "enabled": true,
+      "copy_key_env": "FLEET_COPY_KEY_MUKUL"
+    },
+    {
+      "id": "inst-suraj",
+      "label": "Suraj",
+      "slot": 10,
+      "license_server_id": "http://3.109.62.80:8789/",
+      "aws_account": "Kamal AWS",
+      "server_tag": "10",
+      "enabled": true,
+      "copy_key_env": "FLEET_COPY_KEY_SURAJ"
+    },
+    {
+      "id": "inst-sidharth",
+      "label": "Sidharth",
+      "slot": 11,
+      "license_server_id": "http://15.206.171.83:8789/",
+      "aws_account": "Kamal AWS",
+      "server_tag": "11",
+      "enabled": true,
+      "copy_key_env": "FLEET_COPY_KEY_PAWAN"
+    },
+    {
+      "id": "inst-nilesh",
+      "label": "Nilesh",
+      "slot": 12,
+      "license_server_id": "http://3.111.149.91:8789/",
+      "aws_account": "Kamal AWS",
+      "server_tag": "12",
+      "enabled": true,
+      "copy_key_env": "FLEET_COPY_KEY_NILESH"
+    },
+    {
+      "id": "inst-ravi-gupta",
+      "label": "Ravi Gupta",
+      "slot": 13,
+      "license_server_id": "http://65.1.109.233:8789/",
+      "aws_account": "Kamal AWS",
+      "server_tag": "13",
+      "enabled": true,
+      "copy_key_env": "FLEET_COPY_KEY_RAVI"
+    },
+    {
+      "id": "inst-rahul-ji",
+      "label": "Rahul ji",
+      "slot": 14,
+      "license_server_id": "http://16.4.5.141:8789/",
+      "aws_account": "Rahul AWS",
+      "server_tag": "14",
+      "enabled": true,
+      "copy_key_env": "FLEET_COPY_KEY_RAHULJI",
+      "poll_url": "http://16.4.5.141"
+    }
+  ]
+}

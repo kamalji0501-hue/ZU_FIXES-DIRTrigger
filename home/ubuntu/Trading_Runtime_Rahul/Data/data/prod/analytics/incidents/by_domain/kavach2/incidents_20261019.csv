@@ -1,0 +1,2 @@
+ts_ist,date_ist,incident_id,status,operator_status,event_type,domain,module,scenario,severity,error_type,message,cause_hint,repeat_count,context_json
+15:48:20.664 IST,2026-10-19,kavach2::log_error,REPEAT,open,incident,kavach2,ratripal,log_error,warning,,RATRIPAL tick failed: 'NoneType' object has no attribute 'get',,4,"{""logger"": ""batman.ratripal"", ""pathname"": ""/home/ubuntu/rahul_Changes/kavach-2.0/modules/ratripal.py"", ""lineno"": 68, ""funcName"": ""_run""}"

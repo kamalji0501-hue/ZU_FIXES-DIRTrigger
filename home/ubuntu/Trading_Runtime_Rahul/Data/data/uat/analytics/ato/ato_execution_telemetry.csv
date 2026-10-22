@@ -1,0 +1,9 @@
+timestamp_ist,deployment_file,side,action,trigger_reason,nifty_ltp_at_execution,option_premium,sell_strike,trigger_level_used,protect_strike,protect_symbol,order_id,qty,poll_interval_seconds_used
+2026-08-06 14:21:25 IST,,CE,BUY entry,sell_strike_breached,25505.00,,25500,25500.00,25550,NIFTY 10 MAR 25550 CALL,ORD-0001,65,2
+2026-08-06 14:21:25 IST,,CE,BUY entry,sell_strike_breached,25505.00,,25500,25500.00,25550,NIFTY 10 MAR 25550 CALL,ORD-0001,195,2
+2026-08-06 14:21:25 IST,,CE,BUY entry,sell_strike_breached,25505.00,,25500,25500.00,25600,NIFTY 10 MAR 25600 CALL,ORD-0001,130,2
+2026-08-06 14:21:25 IST,,PE,BUY entry,sell_strike_breached,24895.00,,24900,24900.00,24850,NIFTY 10 MAR 24850 PUT,ORD-0001,65,2
+2026-08-06 14:21:25 IST,,CE,BUY entry,sell_strike_breached,23344.00,,23300,23300.00,23350,NIFTY-Jun2026-23350-CE,ORD-0001,65,2
+2026-08-06 14:21:25 IST,,PE,BUY entry,sell_strike_breached,24000.00,,24700,24700.00,24650,NIFTY 10 MAR 24650 PUT,ORD-0001,65,2
+2026-08-06 14:21:25 IST,,CE,BUY entry,sell_strike_breached,25800.00,,25300,25300.00,25350,NIFTY 10 MAR 25350 CALL,ORD-0001,65,2
+2026-08-06 14:21:26 IST,,CE,BUY entry,sell_strike_breached,25505.00,,25500,25500.00,25550,NIFTY 10 MAR 25550 CALL,ORD-0001,65,2

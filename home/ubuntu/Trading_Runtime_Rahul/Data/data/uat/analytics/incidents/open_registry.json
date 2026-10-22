@@ -1,0 +1,79 @@
+{
+  "jagran::log_error": {
+    "operator_status": "open",
+    "domain": "jagran",
+    "scenario": "log_error",
+    "fingerprint": "log error::jagran handler error: conflict: terminated by other getupdates request; make sure that only one bot instance is running | conflict: conflict: terminated by other getupdates request; make sure that only one bot instance is running",
+    "first_seen": "2026-08-06T15:47:00.979305+05:30",
+    "last_seen": "2026-08-12T08:12:35.863202+05:30",
+    "repeat_count": 2733,
+    "title": "Log Error",
+    "repeat_jagran_sent": true
+  },
+  "drishti::log_error": {
+    "operator_status": "open",
+    "domain": "drishti",
+    "scenario": "log_error",
+    "fingerprint": "log error::nifty rest auth failure (no retry): dhan rejected the access token (http 401). authentication failed - client id or token invalid",
+    "first_seen": "2026-08-19T09:15:10.996958+05:30",
+    "last_seen": "2026-08-19T09:46:25.926791+05:30",
+    "repeat_count": 16,
+    "title": "Log Error",
+    "repeat_jagran_sent": true
+  },
+  "kavach::log_error": {
+    "operator_status": "open",
+    "domain": "kavach",
+    "scenario": "log_error",
+    "fingerprint": "log error::kavach crashed: event loop is closed \u2014 restarting in 12.5s | runtimeerror: event loop is closed",
+    "first_seen": "2026-08-06T14:16:19.319983+05:30",
+    "last_seen": "2026-08-06T14:16:19.319983+05:30",
+    "repeat_count": 1,
+    "title": "Log Error",
+    "repeat_jagran_sent": false
+  },
+  "stop_all::stop_all_warning": {
+    "operator_status": "open",
+    "domain": "stop_all",
+    "scenario": "stop_all_warning",
+    "fingerprint": "stop all warning::kavach: running",
+    "first_seen": "2026-08-06T14:21:22.773326+05:30",
+    "last_seen": "2026-08-06T14:21:22.773326+05:30",
+    "repeat_count": 1,
+    "title": "Stop All Warning",
+    "repeat_jagran_sent": false
+  },
+  "stop_all::stop_all_error": {
+    "operator_status": "open",
+    "domain": "stop_all",
+    "scenario": "stop_all_error",
+    "fingerprint": "stop all error::failed after 2 attempts \u2014 bots still not stopped.",
+    "first_seen": "2026-08-06T14:21:25.294138+05:30",
+    "last_seen": "2026-08-06T14:21:25.294138+05:30",
+    "repeat_count": 1,
+    "title": "Stop All Error",
+    "repeat_jagran_sent": false
+  },
+  "jagran::log_critical": {
+    "operator_status": "open",
+    "domain": "jagran",
+    "scenario": "log_critical",
+    "fingerprint": "log critical::\u2550\u2550\u2550 emergency exit \u2014 test_ato_reset \u2550\u2550\u2550",
+    "first_seen": "2026-08-06T14:21:25.563745+05:30",
+    "last_seen": "2026-08-06T14:21:25.563745+05:30",
+    "repeat_count": 1,
+    "title": "Log Critical",
+    "repeat_jagran_sent": false
+  },
+  "kavach2::log_error": {
+    "operator_status": "open",
+    "domain": "kavach2",
+    "scenario": "log_error",
+    "fingerprint": "log error::kavach 2.0 crashed: event loop is closed \u2014 restarting in 31.2s | runtimeerror: event loop is closed",
+    "first_seen": "2026-08-27T02:15:37.981308+05:30",
+    "last_seen": "2026-08-27T02:15:37.981308+05:30",
+    "repeat_count": 1,
+    "title": "Log Error",
+    "repeat_jagran_sent": false
+  }
+}

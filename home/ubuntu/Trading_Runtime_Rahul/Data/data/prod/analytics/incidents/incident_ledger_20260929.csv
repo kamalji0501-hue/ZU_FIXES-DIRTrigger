@@ -1,0 +1,11 @@
+ts_ist,date_ist,event_type,status_label,source,scenario,severity,category,title,error_message,next_action,resolution_message,incident_id,repeat_count,routed_to_source,source_delivery_ok,routed_to_jagran,jagran_delivery_ok
+12:40:35.596 IST,2026-09-29,incident,TRIGGERED,KAVACH2,log_error,warning,kavach2,Log Error,PE managed qty mismatch — halting side: ['NIFTY26O0623200PE: broker=0 managed=2600'],,,kavach2::log_error,1,False,False,False,False
+12:40:35.634 IST,2026-09-29,incident,TRIGGERED,KAVACH2,log_error,warning,kavach2,Log Error,PE side HALTED reason=batman_qty_drift — PE will not buy until Resume. Check broker book.,,,kavach2::log_error,1,False,False,False,False
+15:15:12.436 IST,2026-09-29,incident,TRIGGERED,KAVACH2,log_error,warning,kavach2,Log Error,RATRIPAL tick failed: 'NoneType' object has no attribute 'get',,,kavach2::log_error,1,False,False,False,False
+15:17:12.492 IST,2026-09-29,incident,REPEAT,KAVACH2,log_error,warning,kavach2,Log Error,RATRIPAL tick failed: 'NoneType' object has no attribute 'get',,,kavach2::log_error,2,False,False,False,False
+15:19:12.554 IST,2026-09-29,incident,REPEAT,KAVACH2,log_error,warning,kavach2,Log Error,RATRIPAL tick failed: 'NoneType' object has no attribute 'get',,,kavach2::log_error,3,False,False,False,False
+"15:19 IST, 29 Sep 2026",2026-09-29,incident,STILL FAILING,KAVACH2,incident_repeat_escalation,major,kavach2,Repeating incident (3x): Log Error,"Domain: KAVACH2 | Scenario: log_error
+Repeat count: 3 (threshold 3)
+Last error: RATRIPAL tick failed: 'NoneType' object has no attribute 'get'
+Cause hint: ",Inspect incident_dashboard.xlsx and domain CSV under data/analytics/incidents/by_domain/,,kavach2::incident_repeat_escalation,2,False,False,True,True
+15:21:13.392 IST,2026-09-29,incident,REPEAT,KAVACH2,log_error,warning,kavach2,Log Error,RATRIPAL tick failed: 'NoneType' object has no attribute 'get',,,kavach2::log_error,4,False,False,False,False

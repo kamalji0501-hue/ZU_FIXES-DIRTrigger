@@ -1,0 +1,93 @@
+{
+  "schema_version": 1.1,
+  "order_mode": "live",
+  "deployed_at": "2026-09-22T08:26:42.519280+00:00",
+  "registered_at": "Tuesday 22-Sep-2026 at 08:26",
+  "file_name": "batman_2026-09-22_08-26.json",
+  "source": "kavach_web",
+  "retrace_points": -95,
+  "ato_manage_sides": "pe",
+  "registration_scope": {
+    "schema_version": 2,
+    "pe_enabled": true,
+    "ce_enabled": false,
+    "pe_managed_lots": 16,
+    "ce_managed_lots": null,
+    "pe_ato_lots": 16,
+    "ce_ato_lots": null,
+    "lot_size": 65,
+    "expiry": "2026-09-22",
+    "expiry_label": "Expiry \u2014 22 Sep 2026"
+  },
+  "positions": {
+    "pe_buy": {
+      "symbol": "NIFTY2692223000PE",
+      "display_symbol": "NIFTY2692223000PE",
+      "strike": 23000,
+      "qty": 1040,
+      "avg_price": 8.07,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "22 Sep 2026",
+      "instrument_token": ""
+    },
+    "pe_margin_hedge": null,
+    "pe_dyn_hedge": null,
+    "pe_sell": {
+      "symbol": "NIFTY2692223400PE",
+      "display_symbol": "NIFTY2692223400PE",
+      "strike": 23400,
+      "qty": 650,
+      "avg_price": 72.0,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "SHORT",
+      "transaction_type": "SELL",
+      "lot_size": 65,
+      "expiry": "22 Sep 2026",
+      "instrument_token": ""
+    },
+    "ce_buy": null,
+    "ce_margin_hedge": null,
+    "ce_dyn_hedge": null,
+    "ce_sell": null
+  },
+  "ato": {
+    "pe_protect_symbol": "NIFTY2692223300PE",
+    "pe_protect_strike": 23300,
+    "pe_protect_strike_mode": "CUSTOM",
+    "ce_protect_symbol": null,
+    "ce_protect_strike": null,
+    "ce_protect_strike_mode": null,
+    "ato_step": 50,
+    "ce_entry_buffer": {
+      "type": "CUSTOM",
+      "value": "0"
+    },
+    "pe_entry_buffer": {
+      "type": "CUSTOM",
+      "value": "100"
+    },
+    "ce_retrace_buffer": {
+      "type": "CUSTOM",
+      "value": "0"
+    },
+    "pe_retrace_buffer": {
+      "type": "CUSTOM",
+      "value": "-95"
+    },
+    "ce_entry_buffer_points": 0,
+    "pe_entry_buffer_points": 100,
+    "ce_retrace_points": 0,
+    "pe_retrace_points": -95,
+    "poll_interval_seconds": 2
+  },
+  "status": "armed",
+  "calendar": {
+    "expiry_date": "2026-09-22",
+    "source": "registration_scope"
+  }
+}

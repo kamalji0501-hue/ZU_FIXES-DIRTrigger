@@ -1,0 +1,23 @@
+{
+  "ce": {
+    "holding": false,
+    "holding_since_ist": null,
+    "sell_strike": null,
+    "protect_strike": null
+  },
+  "pe": {
+    "holding": true,
+    "holding_since_ist": "2026-09-01 12:15:50 IST",
+    "sell_strike": 23750,
+    "protect_strike": 23700,
+    "buy_nifty_ltp": 24114.9,
+    "lots": 1.0,
+    "deployment_file": "batman_2026-08-31_14-50.json",
+    "buy_option_premium": 1.1
+  },
+  "cycles_completed_today": 13,
+  "net_point_impact": 81.55,
+  "updated_at_ist": "2026-09-01 13:10:51 IST",
+  "net_premium_pnl": 0.0,
+  "net_premium_pnl_rupees": 0.0
+}

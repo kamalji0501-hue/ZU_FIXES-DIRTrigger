@@ -1,0 +1,27 @@
+[Unit]
+Description=GO desk fleet health for Command Center (port 8789, no Kavach)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/rahul_Changes/vps
+Environment=PYTHONUNBUFFERED=1
+Environment=GO_FLEET_HEALTH_HOST=0.0.0.0
+Environment=GO_FLEET_HEALTH_PORT=8789
+ExecStart=/home/ubuntu/Go_Bot/.venv/bin/python /home/ubuntu/rahul_Changes/vps/go_fleet_health.py
+Restart=always
+RestartSec=3
+TimeoutStopSec=15
+KillMode=mixed
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=go-fleet-health
+
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

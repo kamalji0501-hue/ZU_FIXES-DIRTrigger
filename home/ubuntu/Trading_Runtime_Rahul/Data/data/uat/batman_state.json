@@ -1,0 +1,141 @@
+{
+  "session_id": "20260806-141342",
+  "started_at": "2026-08-06T14:13:42.236513",
+  "session": {
+    "emergency_exited": false
+  },
+  "positions": {
+    "ce_sell": null,
+    "ce_buy": null,
+    "pe_sell": null,
+    "pe_buy": null,
+    "ce_margin_hedge": null,
+    "ce_dyn_hedge": null,
+    "pe_margin_hedge": null,
+    "pe_dyn_hedge": null
+  },
+  "ato": {
+    "ce_triggered": false,
+    "pe_triggered": false,
+    "ce_ato_active": false,
+    "pe_ato_active": false,
+    "ce_order_id": null,
+    "pe_order_id": null,
+    "ce_ato_exit_order_id": null,
+    "pe_ato_exit_order_id": null,
+    "ce_protect_symbol": null,
+    "pe_protect_symbol": null,
+    "ce_protect_strike": null,
+    "pe_protect_strike": null,
+    "manage_sides": "both",
+    "ce_entry_buffer_points": 0,
+    "pe_entry_buffer_points": 0,
+    "ce_retrace_points": 5,
+    "pe_retrace_points": 5,
+    "poll_interval_seconds": null,
+    "retrace_points": 5,
+    "ce_awaiting_clearance": false,
+    "pe_awaiting_clearance": false,
+    "ce_side_halted": false,
+    "pe_side_halted": false,
+    "ce_halt_reason": null,
+    "pe_halt_reason": null
+  },
+  "risk": {
+    "break_even": {
+      "pe": null,
+      "ce": null,
+      "confirmed": false,
+      "source": {
+        "pe": null,
+        "ce": null
+      },
+      "skipped": false
+    }
+  },
+  "modules": {
+    "ratripal": {
+      "enabled": false
+    },
+    "prabhat_mukti": {
+      "enabled": false
+    },
+    "aditya": {
+      "enabled": false
+    }
+  },
+  "ratripal": {
+    "last_run_date": null,
+    "last_decision": null,
+    "pending": {
+      "request_id": null,
+      "response": null,
+      "sent_at": null
+    }
+  },
+  "prabhat_mukti": {
+    "handoff_file": null
+  },
+  "trailing": {
+    "active": false,
+    "peak_profit": 0,
+    "trailing_stop": null,
+    "hard_stop_hit": false
+  },
+  "hedge": {
+    "active": false,
+    "ce_symbol": null,
+    "pe_symbol": null,
+    "ce_order_id": null,
+    "pe_order_id": null
+  },
+  "active_modules": [],
+  "deployment": {
+    "confirmed": false,
+    "batman_complete": false,
+    "positions_confirmed_date": null,
+    "next_entry_date": null,
+    "file": null,
+    "registration_scope": null,
+    "cleanup_failed": false
+  },
+  "algo": {
+    "paused": false,
+    "pause_reason": "nifty_ltp_websocket_failed",
+    "paused_at": "2026-08-11T09:15:32.541823+05:30",
+    "paused_by": "drishti"
+  },
+  "nifty_ltp_failover": {
+    "active_transport": "websocket",
+    "session_rest_lock_date": null,
+    "degraded": true,
+    "failover_in_progress": false,
+    "last_switch_at": "2026-08-19T09:47:23.238744+05:30",
+    "pause_reason": "nifty_ltp_websocket_failed",
+    "ws_retry_count": 2
+  },
+  "nifty_feed_recovery": {
+    "feed_ready_since": null,
+    "session_open_handled_date": "2026-08-12",
+    "degraded_since": null,
+    "degraded": false,
+    "operator_ready_notified": false,
+    "kavach_resume_ready_notified": false,
+    "transport_switch_count": 0,
+    "escalation_sent": false,
+    "owner": "drishti",
+    "owner_set_at": "2026-08-26T23:03:30.210982+05:30",
+    "owner_set_by": "eod_reset",
+    "last_alert_at": null,
+    "transport_cycle_exhausted": false
+  },
+  "order_mode": "paper",
+  "dyn_hedge": {
+    "pe_exited_date": null,
+    "ce_exited_date": null,
+    "exit_enabled": true
+  },
+  "aditya": {
+    "handoff_file": null
+  }
+}

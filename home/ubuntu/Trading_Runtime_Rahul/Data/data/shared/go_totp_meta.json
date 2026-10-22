@@ -1,0 +1,8 @@
+{
+  "auto_renew_enabled": true,
+  "last_error": null,
+  "last_refresh_at": "2026-09-18T09:14:28.274757+05:30",
+  "last_refresh_ok": true,
+  "policy_days": 30,
+  "totp_configured_at": "2026-08-08T00:00:00+05:30"
+}

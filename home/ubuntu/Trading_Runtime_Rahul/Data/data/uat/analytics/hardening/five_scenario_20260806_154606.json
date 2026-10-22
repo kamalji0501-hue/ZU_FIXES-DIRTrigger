@@ -1,0 +1,183 @@
+{
+  "ts": "2026-08-06T15:46:23.401832+05:30",
+  "cycles": 5,
+  "all_green": true,
+  "results": [
+    {
+      "cycle": 1,
+      "scenarios": [
+        {
+          "name": "S1_robot_verify",
+          "ok": true,
+          "detail": "ROBOT VERIFY Phase-1\nROOT /home/ubuntu/rahul_Changes\n\n=== compile ===\n  PASS  core/order_mode.py\n  PASS  core/paper_position_book.py\n  PASS  core/ato_nifty_tick_csv.py\n  PASS  core/money_audit.py\n  PASS  core/order_manager.py\n  PASS  modules/ato_protection.py\n  PASS  bat_telegram/bots/kavach/register_wizard.py\n  PASS  bat_telegram/bots/kavach/bot.py\n  PASS  run_kavach.py\n\n=== pytest ===\n.....................                                                    [100%]\n\n  PASS  pytest suites\n\n=== sm",
+          "seconds": 2.46
+        },
+        {
+          "name": "S2_paper_punch_x3",
+          "ok": true,
+          "detail": "ids=['8098ae1d8811', '549241e20043', 'c7d1fcd58cd3'] missing=set()",
+          "seconds": 1.053
+        },
+        {
+          "name": "S3_live_sink",
+          "ok": true,
+          "detail": "broker-hit",
+          "seconds": 0.002
+        },
+        {
+          "name": "S4_tick_csv",
+          "ok": true,
+          "detail": "path=/home/ubuntu/Trading_Runtime_Rahul/Data/data/uat/ato_tick_csv/2026-08/ato_nifty_ce_pe_20260806.csv bytes=2230",
+          "seconds": 0.006
+        },
+        {
+          "name": "S5_wizard_settings",
+          "ok": true,
+          "detail": "plan0=order_mode total=17 level=DEBUG",
+          "seconds": 0.062
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "scenarios": [
+        {
+          "name": "S1_robot_verify",
+          "ok": true,
+          "detail": "ROBOT VERIFY Phase-1\nROOT /home/ubuntu/rahul_Changes\n\n=== compile ===\n  PASS  core/order_mode.py\n  PASS  core/paper_position_book.py\n  PASS  core/ato_nifty_tick_csv.py\n  PASS  core/money_audit.py\n  PASS  core/order_manager.py\n  PASS  modules/ato_protection.py\n  PASS  bat_telegram/bots/kavach/register_wizard.py\n  PASS  bat_telegram/bots/kavach/bot.py\n  PASS  run_kavach.py\n\n=== pytest ===\n.....................                                                    [100%]\n\n  PASS  pytest suites\n\n=== sm",
+          "seconds": 2.457
+        },
+        {
+          "name": "S2_paper_punch_x3",
+          "ok": true,
+          "detail": "ids=['324d7e5ae7fd', '7ca01a48d1d1', '42cd00105e95'] missing=set()",
+          "seconds": 0.794
+        },
+        {
+          "name": "S3_live_sink",
+          "ok": true,
+          "detail": "broker-hit",
+          "seconds": 0.002
+        },
+        {
+          "name": "S4_tick_csv",
+          "ok": true,
+          "detail": "path=/home/ubuntu/Trading_Runtime_Rahul/Data/data/uat/ato_tick_csv/2026-08/ato_nifty_ce_pe_20260806.csv bytes=3038",
+          "seconds": 0.003
+        },
+        {
+          "name": "S5_wizard_settings",
+          "ok": true,
+          "detail": "plan0=order_mode total=17 level=DEBUG",
+          "seconds": 0.001
+        }
+      ]
+    },
+    {
+      "cycle": 3,
+      "scenarios": [
+        {
+          "name": "S1_robot_verify",
+          "ok": true,
+          "detail": "ROBOT VERIFY Phase-1\nROOT /home/ubuntu/rahul_Changes\n\n=== compile ===\n  PASS  core/order_mode.py\n  PASS  core/paper_position_book.py\n  PASS  core/ato_nifty_tick_csv.py\n  PASS  core/money_audit.py\n  PASS  core/order_manager.py\n  PASS  modules/ato_protection.py\n  PASS  bat_telegram/bots/kavach/register_wizard.py\n  PASS  bat_telegram/bots/kavach/bot.py\n  PASS  run_kavach.py\n\n=== pytest ===\n.....................                                                    [100%]\n\n  PASS  pytest suites\n\n=== sm",
+          "seconds": 2.474
+        },
+        {
+          "name": "S2_paper_punch_x3",
+          "ok": true,
+          "detail": "ids=['a24f8a3bfd16', 'c8191f223572', '9efe912eeb21'] missing=set()",
+          "seconds": 0.797
+        },
+        {
+          "name": "S3_live_sink",
+          "ok": true,
+          "detail": "broker-hit",
+          "seconds": 0.002
+        },
+        {
+          "name": "S4_tick_csv",
+          "ok": true,
+          "detail": "path=/home/ubuntu/Trading_Runtime_Rahul/Data/data/uat/ato_tick_csv/2026-08/ato_nifty_ce_pe_20260806.csv bytes=3846",
+          "seconds": 0.002
+        },
+        {
+          "name": "S5_wizard_settings",
+          "ok": true,
+          "detail": "plan0=order_mode total=17 level=DEBUG",
+          "seconds": 0.001
+        }
+      ]
+    },
+    {
+      "cycle": 4,
+      "scenarios": [
+        {
+          "name": "S1_robot_verify",
+          "ok": true,
+          "detail": "ROBOT VERIFY Phase-1\nROOT /home/ubuntu/rahul_Changes\n\n=== compile ===\n  PASS  core/order_mode.py\n  PASS  core/paper_position_book.py\n  PASS  core/ato_nifty_tick_csv.py\n  PASS  core/money_audit.py\n  PASS  core/order_manager.py\n  PASS  modules/ato_protection.py\n  PASS  bat_telegram/bots/kavach/register_wizard.py\n  PASS  bat_telegram/bots/kavach/bot.py\n  PASS  run_kavach.py\n\n=== pytest ===\n.....................                                                    [100%]\n\n  PASS  pytest suites\n\n=== sm",
+          "seconds": 2.498
+        },
+        {
+          "name": "S2_paper_punch_x3",
+          "ok": true,
+          "detail": "ids=['89db79851017', '98d2a22fb180', '84c5b3aa3ff0'] missing=set()",
+          "seconds": 0.794
+        },
+        {
+          "name": "S3_live_sink",
+          "ok": true,
+          "detail": "broker-hit",
+          "seconds": 0.002
+        },
+        {
+          "name": "S4_tick_csv",
+          "ok": true,
+          "detail": "path=/home/ubuntu/Trading_Runtime_Rahul/Data/data/uat/ato_tick_csv/2026-08/ato_nifty_ce_pe_20260806.csv bytes=4654",
+          "seconds": 0.002
+        },
+        {
+          "name": "S5_wizard_settings",
+          "ok": true,
+          "detail": "plan0=order_mode total=17 level=DEBUG",
+          "seconds": 0.001
+        }
+      ]
+    },
+    {
+      "cycle": 5,
+      "scenarios": [
+        {
+          "name": "S1_robot_verify",
+          "ok": true,
+          "detail": "ROBOT VERIFY Phase-1\nROOT /home/ubuntu/rahul_Changes\n\n=== compile ===\n  PASS  core/order_mode.py\n  PASS  core/paper_position_book.py\n  PASS  core/ato_nifty_tick_csv.py\n  PASS  core/money_audit.py\n  PASS  core/order_manager.py\n  PASS  modules/ato_protection.py\n  PASS  bat_telegram/bots/kavach/register_wizard.py\n  PASS  bat_telegram/bots/kavach/bot.py\n  PASS  run_kavach.py\n\n=== pytest ===\n.....................                                                    [100%]\n\n  PASS  pytest suites\n\n=== sm",
+          "seconds": 2.489
+        },
+        {
+          "name": "S2_paper_punch_x3",
+          "ok": true,
+          "detail": "ids=['fb09576925d9', '50a788570aae', '68c0dded7242'] missing=set()",
+          "seconds": 0.794
+        },
+        {
+          "name": "S3_live_sink",
+          "ok": true,
+          "detail": "broker-hit",
+          "seconds": 0.002
+        },
+        {
+          "name": "S4_tick_csv",
+          "ok": true,
+          "detail": "path=/home/ubuntu/Trading_Runtime_Rahul/Data/data/uat/ato_tick_csv/2026-08/ato_nifty_ce_pe_20260806.csv bytes=5462",
+          "seconds": 0.002
+        },
+        {
+          "name": "S5_wizard_settings",
+          "ok": true,
+          "detail": "plan0=order_mode total=17 level=DEBUG",
+          "seconds": 0.001
+        }
+      ]
+    }
+  ],
+  "audit_path": "/home/ubuntu/Trading_Runtime_Rahul/Logs/uat/2026-08/2026-08-06/kavach/audit/money_audit.jsonl"
+}

@@ -1,0 +1,14 @@
+{
+  "ltp": 24078.5,
+  "updated_at": "2026-07-16T00:01:47.755592+05:30",
+  "last_changed_at": "2026-07-16T00:01:47.755592+05:30",
+  "source": "dhan_rest",
+  "feed_healthy": true,
+  "poll_interval_seconds": 2,
+  "consecutive_failures": 0,
+  "unchanged_seconds": 0.0,
+  "collector": "drishti",
+  "collector_pid": 4616,
+  "cache_age_seconds": 0.0,
+  "ready_for_consumers": true
+}

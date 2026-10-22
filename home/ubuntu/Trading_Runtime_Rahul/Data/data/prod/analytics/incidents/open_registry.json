@@ -1,0 +1,24 @@
+{
+  "kavach2::log_error": {
+    "operator_status": "open",
+    "domain": "kavach2",
+    "scenario": "log_error",
+    "fingerprint": "log error::zerodha live token sync failed: cannot access local variable '_ratripal_module' where it is not associated with a value",
+    "first_seen": "2026-10-21T08:48:27.865240+05:30",
+    "last_seen": "2026-10-21T08:48:27.865240+05:30",
+    "repeat_count": 1,
+    "title": "Log Error",
+    "repeat_jagran_sent": false
+  },
+  "kavach2::log_critical": {
+    "operator_status": "open",
+    "domain": "kavach2",
+    "scenario": "log_critical",
+    "fingerprint": "log critical::pnl exit fire reason=take_profit pnl=194483.25 level=35000.00",
+    "first_seen": "2026-10-13T11:07:44.827373+05:30",
+    "last_seen": "2026-10-13T11:07:44.827373+05:30",
+    "repeat_count": 1,
+    "title": "Log Critical",
+    "repeat_jagran_sent": false
+  }
+}

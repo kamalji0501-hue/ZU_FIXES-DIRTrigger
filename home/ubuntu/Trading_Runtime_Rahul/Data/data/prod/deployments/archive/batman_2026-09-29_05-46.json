@@ -1,0 +1,106 @@
+{
+  "schema_version": 1.1,
+  "order_mode": "live",
+  "deployed_at": "2026-09-29T05:46:12.810321+00:00",
+  "registered_at": "Tuesday 29-Sep-2026 at 05:46",
+  "file_name": "batman_2026-09-29_05-46.json",
+  "source": "kavach_web",
+  "retrace_points": -495,
+  "ato_manage_sides": "pe",
+  "registration_scope": {
+    "schema_version": 2,
+    "pe_enabled": true,
+    "ce_enabled": false,
+    "pe_managed_lots": 40,
+    "ce_managed_lots": null,
+    "pe_ato_lots": 40,
+    "ce_ato_lots": null,
+    "lot_size": 65,
+    "expiry": "2026-10-06",
+    "expiry_label": "Expiry \u2014 06 Oct 2026"
+  },
+  "positions": {
+    "pe_buy": {
+      "symbol": "NIFTY26O0622800PE",
+      "display_symbol": "NIFTY26O0622800PE",
+      "strike": 22800,
+      "qty": 2600,
+      "avg_price": 142.19,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "06 Oct 2026",
+      "instrument_token": ""
+    },
+    "pe_margin_hedge": {
+      "symbol": "NIFTY26O0621500PE",
+      "display_symbol": "NIFTY26O0621500PE",
+      "strike": 21500,
+      "qty": 2600,
+      "avg_price": 13.1,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "06 Oct 2026",
+      "instrument_token": ""
+    },
+    "pe_dyn_hedge": null,
+    "pe_sell": {
+      "symbol": "NIFTY26O0623200PE",
+      "display_symbol": "NIFTY26O0623200PE",
+      "strike": 23200,
+      "qty": 2600,
+      "avg_price": 363.71,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "SHORT",
+      "transaction_type": "SELL",
+      "lot_size": 65,
+      "expiry": "06 Oct 2026",
+      "instrument_token": ""
+    },
+    "ce_buy": null,
+    "ce_margin_hedge": null,
+    "ce_dyn_hedge": null,
+    "ce_sell": null
+  },
+  "ato": {
+    "pe_protect_symbol": "NIFTY26O0622550PE",
+    "pe_protect_strike": 22550,
+    "pe_protect_strike_mode": "CUSTOM",
+    "ce_protect_symbol": null,
+    "ce_protect_strike": null,
+    "ce_protect_strike_mode": null,
+    "ato_step": 50,
+    "ce_entry_buffer": {
+      "type": "CUSTOM",
+      "value": "0"
+    },
+    "pe_entry_buffer": {
+      "type": "CUSTOM",
+      "value": "500"
+    },
+    "ce_retrace_buffer": {
+      "type": "CUSTOM",
+      "value": "0"
+    },
+    "pe_retrace_buffer": {
+      "type": "CUSTOM",
+      "value": "-495"
+    },
+    "ce_entry_buffer_points": 0,
+    "pe_entry_buffer_points": 500,
+    "ce_retrace_points": 0,
+    "pe_retrace_points": -495,
+    "poll_interval_seconds": 1
+  },
+  "status": "armed",
+  "calendar": {
+    "expiry_date": "2026-10-06",
+    "source": "registration_scope"
+  }
+}

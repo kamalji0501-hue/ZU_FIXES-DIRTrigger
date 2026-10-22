@@ -1,0 +1,111 @@
+{
+  "nifty_ref": 24500.0,
+  "strikes": [
+    24350,
+    24450,
+    24650,
+    24550,
+    24400,
+    24300,
+    24500,
+    24600,
+    24700,
+    24750
+  ],
+  "passed": 10,
+  "total": 10,
+  "results": [
+    {
+      "case": "ft01",
+      "symbol": "NIFTY-24350-CE",
+      "side": "SELL",
+      "order_id": "0a38550b5b0e",
+      "ok": true,
+      "error": null
+    },
+    {
+      "case": "ft02",
+      "symbol": "NIFTY-24450-CE",
+      "side": "BUY",
+      "order_id": "39cb8c5c3e96",
+      "ok": true,
+      "error": null
+    },
+    {
+      "case": "ft03",
+      "symbol": "NIFTY-24650-PE",
+      "side": "BUY",
+      "order_id": "0ec97a2fb69a",
+      "ok": true,
+      "error": null
+    },
+    {
+      "case": "ft04",
+      "symbol": "NIFTY-24550-CE",
+      "side": "BUY",
+      "order_id": "b1e9c13eb84b",
+      "ok": true,
+      "error": null
+    },
+    {
+      "case": "ft05",
+      "symbol": "NIFTY-24400-PE",
+      "side": "SELL",
+      "order_id": "c6d2bf31d0cf",
+      "ok": true,
+      "error": null
+    },
+    {
+      "case": "ft06",
+      "symbol": "NIFTY-24300-PE",
+      "side": "BUY",
+      "order_id": "41304181a0ec",
+      "ok": true,
+      "error": null
+    },
+    {
+      "case": "ft07",
+      "symbol": "NIFTY-24500-CE",
+      "side": "SELL",
+      "order_id": "51bd9ab2e09a",
+      "ok": true,
+      "error": null
+    },
+    {
+      "case": "ft08",
+      "symbol": "NIFTY-24600-PE",
+      "side": "SELL",
+      "order_id": "40283d06c663",
+      "ok": true,
+      "error": null
+    },
+    {
+      "case": "ft09",
+      "symbol": "NIFTY-24700-PE",
+      "side": "SELL",
+      "order_id": "91ffb0661dc4",
+      "ok": true,
+      "error": null
+    },
+    {
+      "case": "ft10",
+      "symbol": "NIFTY-24750-CE",
+      "side": "BUY",
+      "order_id": "f4691b35c112",
+      "ok": true,
+      "error": null
+    }
+  ],
+  "paper_audit_path": "/home/ubuntu/Trading_Runtime_Rahul/Logs/uat/2026-08/2026-08-06/kavach/audit/money_audit_paper.jsonl",
+  "paper_audit_hits": 11,
+  "log_path": "/home/ubuntu/Trading_Runtime_Rahul/Logs/uat/runtime/2026-08/2026-08-06/kavach/logs/all.log",
+  "log_has_paper_prefix": true,
+  "trade_lane": "paper",
+  "bots_alive": {
+    "drishti": true,
+    "kavach2": true,
+    "jagran": true,
+    "saransh": true
+  },
+  "all_bots_ok": true
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-09T21:28:01+05:30",
+  "in_market_window": false,
+  "services": {
+    "datafeedbot": "already_active",
+    "kavach2": "already_active"
+  },
+  "feed": {},
+  "ops": {
+    "deployment_confirmed": false,
+    "algo_paused": false,
+    "pe_side_halted": false,
+    "pe_halt_reason": null,
+    "manage_sides": "both"
+  },
+  "actions": [],
+  "ok": true,
+  "note": "outside market window \u2014 service check only"
+}

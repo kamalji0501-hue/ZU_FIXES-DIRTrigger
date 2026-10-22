@@ -1,0 +1,3 @@
+trade_date,request_id,deployment_file,side,zone,action,symbol,strike,qty,order_id,spot,dte,break_even,status
+2026-10-05,2026-10-05::1791193501,batman_2026-10-05_09-04.json,CE,White,standard_break_even,NIFTY26O0623050CE,23050,65,261005170992991,22535.45,1,23050,verified_buy
+2026-10-05,2026-10-05::1791193501,batman_2026-10-05_09-04.json,PE,Green,green_inside,NIFTY26O0622100PE,22100,65,261005170993022,22535.45,1,22050,verified_buy

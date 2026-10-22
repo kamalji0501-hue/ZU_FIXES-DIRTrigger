@@ -1,0 +1,10 @@
+{
+  "ltp": 23869.5,
+  "updated_at": "2026-07-23T19:05:54.106747+05:30",
+  "source": "dhan_rest",
+  "symbol": "GIFTNIFTY",
+  "security_id": 5024,
+  "probe_healthy": true,
+  "poll_interval_seconds": 5,
+  "consecutive_failures": 0
+}

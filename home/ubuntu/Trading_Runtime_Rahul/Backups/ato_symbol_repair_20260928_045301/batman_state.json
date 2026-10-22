@@ -1,0 +1,258 @@
+{
+  "session_id": "20260827-025613",
+  "started_at": "2026-08-27T02:56:13.520227",
+  "session": {
+    "emergency_exited": false
+  },
+  "positions": {
+    "ce_sell": null,
+    "ce_buy": null,
+    "pe_sell": {
+      "symbol": "NIFTY26O0623200PE",
+      "display_symbol": "NIFTY26O0623200PE",
+      "strike": 23200,
+      "qty": 1300,
+      "avg_price": 339.93,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "SHORT",
+      "transaction_type": "SELL",
+      "lot_size": 65,
+      "expiry": "06 Oct 2026",
+      "instrument_token": ""
+    },
+    "pe_buy": {
+      "symbol": "NIFTY26O0622800PE",
+      "display_symbol": "NIFTY26O0622800PE",
+      "strike": 22800,
+      "qty": 1300,
+      "avg_price": 131.3,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "06 Oct 2026",
+      "instrument_token": ""
+    },
+    "pe_margin_hedge": {
+      "symbol": "NIFTY26O0622000PE",
+      "display_symbol": "NIFTY26O0622000PE",
+      "strike": 22000,
+      "qty": 1300,
+      "avg_price": 15.8,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "06 Oct 2026",
+      "instrument_token": ""
+    },
+    "pe_dyn_hedge": null,
+    "ce_margin_hedge": null,
+    "ce_dyn_hedge": null
+  },
+  "ato": {
+    "ce_triggered": false,
+    "pe_triggered": false,
+    "ce_ato_active": false,
+    "pe_ato_active": false,
+    "ce_order_id": null,
+    "pe_order_id": null,
+    "ce_ato_exit_order_id": null,
+    "pe_ato_exit_order_id": null,
+    "ce_protect_symbol": null,
+    "pe_protect_symbol": "NIFTY-22750-PE",
+    "ce_protect_strike": null,
+    "pe_protect_strike": 22750,
+    "manage_sides": "pe",
+    "ce_entry_buffer_points": "0.00",
+    "pe_entry_buffer_points": "355",
+    "ce_retrace_points": "0.00",
+    "pe_retrace_points": "-350",
+    "poll_interval_seconds": 2,
+    "retrace_points": 5,
+    "idempotency": {
+      "2026-08-27:PE:SELL:NIFTY2690123900PE": null,
+      "2026-08-27:PE:BUY:NIFTY2690123900PE": "260827170830155",
+      "2026-08-28:PE:SELL:NIFTY2690123900PE": "260828170889547",
+      "2026-08-28:PE:BUY:NIFTY2690123900PE": null,
+      "2026-08-31:PE:SELL:NIFTY2690123900PE": "260831170532028",
+      "2026-08-31:PE:BUY:NIFTY2690123900PE": null,
+      "2026-08-31:PE:SELL:NIFTY2690123700PE": null,
+      "2026-08-31:PE:BUY:NIFTY2690123700PE": "260831171033142",
+      "2026-09-01:PE:SELL:NIFTY2690123700PE": null,
+      "2026-09-01:PE:BUY:NIFTY2690123700PE": "260901170790901",
+      "2026-09-01:CE:SELL:NIFTY2690124400CE": "260901170935369",
+      "2026-09-01:CE:BUY:NIFTY2690124400CE": null,
+      "2026-09-01:PE:SELL:NIFTY2690823950PE": null,
+      "2026-09-01:PE:BUY:NIFTY2690823950PE": "260901171090382",
+      "2026-09-01:PE:SELL:NIFTY2690823000PE": "260901171335462",
+      "2026-09-01:PE:BUY:NIFTY2690823000PE": null,
+      "2026-09-02:PE:SELL:NIFTY2690823550PE": null,
+      "2026-09-02:PE:BUY:NIFTY2690823550PE": "260902171001096",
+      "2026-09-02:CE:SELL:NIFTY2690824250CE": null,
+      "2026-09-02:CE:BUY:NIFTY2690824250CE": "260902171094579",
+      "2026-09-03:PE:SELL:NIFTY2691523650PE": null,
+      "2026-09-03:PE:BUY:NIFTY2691523650PE": "260903170773221",
+      "2026-09-03:CE:SELL:NIFTY2691524350CE": null,
+      "2026-09-03:CE:BUY:NIFTY2691524350CE": "260903170782163",
+      "2026-09-03:PE:SELL:NIFTY2692223650PE": "260903170830373",
+      "2026-09-03:PE:BUY:NIFTY2692223650PE": null,
+      "2026-09-03:PE:SELL:NIFTY2690823550PE": "260903171197311",
+      "2026-09-03:PE:BUY:NIFTY2690823550PE": null,
+      "2026-09-04:PE:SELL:NIFTY2690823650PE": null,
+      "2026-09-04:PE:BUY:NIFTY2690823650PE": "260904170895851",
+      "2026-09-04:CE:SELL:NIFTY2690824350CE": "260904170980642",
+      "2026-09-04:CE:BUY:NIFTY2690824350CE": null,
+      "2026-09-07:PE:SELL:NIFTY2691523800PE": "260907170834558",
+      "2026-09-07:PE:BUY:NIFTY2691523800PE": null,
+      "2026-09-07:CE:SELL:NIFTY2691524000CE": null,
+      "2026-09-07:CE:BUY:NIFTY2691524000CE": "260907170871592",
+      "2026-09-08:CE:SELL:NIFTY2691523850CE": "260908170662692",
+      "2026-09-08:CE:BUY:NIFTY2691523850CE": null,
+      "2026-09-08:PE:SELL:NIFTY2691523650PE": "260908170925734",
+      "2026-09-08:PE:BUY:NIFTY2691523650PE": null,
+      "2026-09-08:CE:SELL:NIFTY2691523700CE": "260908170980544",
+      "2026-09-08:CE:BUY:NIFTY2691523700CE": null,
+      "2026-09-09:CE:SELL:NIFTY2691523750CE": "260909170761594",
+      "2026-09-09:CE:BUY:NIFTY2691523750CE": null,
+      "2026-09-10:CE:SELL:NIFTY2691523550CE": null,
+      "2026-09-10:CE:BUY:NIFTY2691523550CE": "260910170212931",
+      "2026-09-11:CE:SELL:NIFTY2691523250CE": "260911170721352",
+      "2026-09-11:CE:BUY:NIFTY2691523250CE": null,
+      "2026-09-11:PE:SELL:NIFTY2691523250PE": null,
+      "2026-09-11:PE:BUY:NIFTY2691523250PE": "260911170442251",
+      "2026-09-15:PE:SELL:NIFTY2692223150PE": null,
+      "2026-09-15:PE:BUY:NIFTY2692223150PE": "260915170982365",
+      "2026-09-22:PE:SELL:NIFTY2692223300PE": "260922170794678",
+      "2026-09-22:PE:BUY:NIFTY2692223300PE": null,
+      "2026-09-23:CE:SELL:NIFTY26SEP23550CE": "260923170705115",
+      "2026-09-23:CE:BUY:NIFTY26SEP23550CE": null,
+      "2026-09-24:PE:SELL:NIFTY26SEP23150PE": "260924170908138",
+      "2026-09-24:PE:BUY:NIFTY26SEP23150PE": null,
+      "2026-09-28:PE:SELL:NIFTY-22750-PE": null,
+      "2026-09-28:PE:BUY:NIFTY-22750-PE": "260928170319351"
+    },
+    "pe_side_halted": true,
+    "pe_halt_reason": "fill_wrong_contract",
+    "pe_buy_trigger": 44.95,
+    "pe_buy_limit": 45.05,
+    "pe_buy_oid": "260928170319351",
+    "pe_buy_qty": 1300,
+    "pe_exit_qty": null,
+    "pe_entry_option_premium": null,
+    "pe_entry_replay_market_time": null,
+    "pe_awaiting_clearance": false,
+    "web_buy_fill_token": null,
+    "web_sell_fill_token": null,
+    "ce_side_halted": false,
+    "ce_halt_reason": null,
+    "ce_awaiting_clearance": false,
+    "ce_buy_trigger": null,
+    "ce_buy_limit": null,
+    "ce_buy_oid": null,
+    "ce_buy_qty": null,
+    "ce_exit_qty": null,
+    "ce_entry_option_premium": null,
+    "ce_entry_replay_market_time": null
+  },
+  "risk": {
+    "break_even": {
+      "pe": null,
+      "ce": null,
+      "confirmed": false,
+      "source": {
+        "pe": null,
+        "ce": null
+      },
+      "skipped": false
+    }
+  },
+  "modules": {
+    "ratripal": {
+      "enabled": true
+    },
+    "prabhat_mukti": {
+      "enabled": false
+    }
+  },
+  "ratripal": {
+    "last_run_date": null,
+    "last_decision": null,
+    "pending": {
+      "request_id": null,
+      "response": null,
+      "sent_at": null,
+      "sides": null,
+      "buy_time_ist": null
+    },
+    "buy_time_ist": "15:20"
+  },
+  "prabhat_mukti": {
+    "handoff_file": null
+  },
+  "trailing": {
+    "active": false,
+    "peak_profit": 0,
+    "trailing_stop": null,
+    "hard_stop_hit": false
+  },
+  "hedge": {
+    "active": false,
+    "ce_symbol": null,
+    "pe_symbol": null,
+    "ce_order_id": null,
+    "pe_order_id": null
+  },
+  "active_modules": [],
+  "deployment": {
+    "confirmed": true,
+    "batman_complete": false,
+    "positions_confirmed_date": null,
+    "next_entry_date": null,
+    "registration_scope": {
+      "schema_version": 2,
+      "pe_enabled": true,
+      "ce_enabled": false,
+      "pe_managed_lots": 20,
+      "ce_managed_lots": null,
+      "pe_ato_lots": 20,
+      "ce_ato_lots": null,
+      "lot_size": 65,
+      "expiry": "2026-10-06",
+      "expiry_label": "Expiry \u2014 06 Oct 2026"
+    },
+    "file": "/home/ubuntu/Trading_Runtime_Rahul/Data/data/prod/deployments/batman_2026-09-28_04-07.json",
+    "cleanup_failed": false
+  },
+  "algo": {
+    "paused": false,
+    "pause_reason": null,
+    "paused_at": null,
+    "paused_by": null
+  },
+  "order_mode": "live",
+  "dyn_hedge": {
+    "exit_enabled": false,
+    "pe_exited_date": null,
+    "ce_exited_date": null
+  },
+  "pnl_exit": {
+    "safe_on": false,
+    "tp_on": false,
+    "safe_level_rs": null,
+    "tp_level_rs": 25000.0,
+    "firing": false,
+    "last_reason": null,
+    "last_pnl": null,
+    "last_at": null
+  },
+  "overnight": {
+    "cycles": [],
+    "summary": {},
+    "hedge_active": false,
+    "morning_done_date": null
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "allow_copy": true,
+  "channel_on": true,
+  "dry_run": true,
+  "lots": 2,
+  "master_allowed_lots": 0,
+  "master_allowed_mode": "same",
+  "peer_base_url": "http://172.26.6.249:8789",
+  "peer_vps_id": "child-aman",
+  "qty_mode": "same",
+  "qty_override": 0,
+  "receive_paused": false,
+  "role": "master",
+  "vps_id": "master-anand"
+}

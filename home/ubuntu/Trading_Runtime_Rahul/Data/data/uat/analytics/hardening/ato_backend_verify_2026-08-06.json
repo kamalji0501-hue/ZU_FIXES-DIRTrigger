@@ -1,0 +1,47 @@
+{
+  "passed_cycles": 5,
+  "total_cycles": 5,
+  "cycles": [
+    {
+      "cycle": 1,
+      "symbol": "NIFTY-24550-CE",
+      "buy_id": "2c28d22df2dc",
+      "sell_id": "f793fcd27b35",
+      "ok": true
+    },
+    {
+      "cycle": 2,
+      "symbol": "NIFTY-24600-CE",
+      "buy_id": "dfd838fbc6b8",
+      "sell_id": "a414c6ef9774",
+      "ok": true
+    },
+    {
+      "cycle": 3,
+      "symbol": "NIFTY-24650-CE",
+      "buy_id": "ed48992083a7",
+      "sell_id": "795770d7aaea",
+      "ok": true
+    },
+    {
+      "cycle": 4,
+      "symbol": "NIFTY-24700-CE",
+      "buy_id": "402e5d345cf3",
+      "sell_id": "ab38b2cab1bd",
+      "ok": true
+    },
+    {
+      "cycle": 5,
+      "symbol": "NIFTY-24750-CE",
+      "buy_id": "fa8f291be35e",
+      "sell_id": "e99285239cf5",
+      "ok": true
+    }
+  ],
+  "log_has_paper_prefix": true,
+  "log_has_backend_evidence": true,
+  "log_has_slippage_evidence": true,
+  "telegram_ui_leak_in_log": false,
+  "kavach2_has_om_punch": true,
+  "log_path": "/home/ubuntu/Trading_Runtime_Rahul/Logs/uat/runtime/2026-08/2026-08-06/kavach/logs/all.log"
+}

@@ -1,0 +1,5 @@
+ts_ist,date_ist,incident_id,status,operator_status,event_type,domain,module,scenario,severity,error_type,message,cause_hint,repeat_count,context_json
+14:21:22.773 IST,2026-08-06,stop_all::stop_all_warning,TRIGGERED,open,incident,stop_all,stop_all,stop_all_warning,warning,,KAVACH: RUNNING,See launcher log and Show Bot Status.bat.,1,{}
+14:21:25.294 IST,2026-08-06,stop_all::stop_all_error,TRIGGERED,open,incident,stop_all,stop_all,stop_all_error,warning,,FAILED after 2 attempts — bots still not STOPPED.,See launcher log and Show Bot Status.bat.,1,{}
+14:21:25.295 IST,2026-08-06,stop_all::stop_all_failure,TRIGGERED,open,incident,stop_all,phase1_stop_all,stop_all_failure,warning,,Bots not STOPPED after 2 attempts.,Run stop .bat per bot; check ORPHAN processes in Show Bot Status.,1,"{""detail"": ""KAVACH: RUNNING""}"
+15:46:46.172 IST,2026-08-06,stop_all::stop_all_failure,RECOVERED,closed,recovery,stop_all,,stop_all_failure,info,,All Phase 1 bots verified STOPPED.,,1,{}

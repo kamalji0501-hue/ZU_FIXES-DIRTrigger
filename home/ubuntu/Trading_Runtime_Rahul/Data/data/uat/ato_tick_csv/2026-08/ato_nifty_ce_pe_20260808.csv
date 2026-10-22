@@ -1,0 +1,4 @@
+date_time_ist,nifty_ltp,ce_ato_symbol,ce_ato_strike,ce_ato_mode,ce_ato_ltp,pe_ato_symbol,pe_ato_strike,pe_ato_mode,pe_ato_ltp,source
+2026-08-08 16:58:26.640,24700.00,CE,25000,AUTO,,PE,24500,CUSTOM,,register
+2026-08-08 16:58:26.640,24701.00,CE,25000,AUTO,,PE,24500,CUSTOM,,nifty_ws
+2026-08-08 16:58:26.640,24701.00,CE,25000,AUTO,10.00,PE,24500,CUSTOM,20.00,option_poll

@@ -1,0 +1,2949 @@
+{
+  "book": {},
+  "events": [
+    {
+      "action": "POLL",
+      "event_id": "live-1f07fc14cc25447f9805cb124573a236",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": 1,
+        "strategy": "batman"
+      },
+      "schema_version": 1,
+      "seq": 1,
+      "strategy": "batman",
+      "summary": "Poll interval 1"
+    },
+    {
+      "action": "POLL",
+      "event_id": "live-d8609f8754b24b1d967214f715a855dd",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "4",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 2,
+      "strategy": "directional",
+      "summary": "Poll interval 4"
+    },
+    {
+      "action": "COMPLETE",
+      "event_id": "live-6d4f820c48024eeba49b3f03a3ab3d83",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 3,
+      "strategy": "directional",
+      "summary": "Batman complete"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-68290fcbdd144d5ba938e852538cb6b4",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": 1
+      },
+      "schema_version": 1,
+      "seq": 4,
+      "strategy": "",
+      "summary": "Poll interval 1"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-0a3063d416804868899a59037ab0ddfd",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "2",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 5,
+      "strategy": "directional",
+      "summary": "Poll interval 2"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-149f6b720d5c4a52ab9a0070ea34a78d",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "1",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 6,
+      "strategy": "directional",
+      "summary": "Poll interval 1"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 2,
+      "event_id": "live-8f21eaaa32a04210bdb023313e8e17d6",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "2",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 7,
+      "strategy": "directional",
+      "summary": "Poll interval 2"
+    },
+    {
+      "action": "DEPLOY_REGISTER",
+      "allowed_lots": 2,
+      "event_id": "live-144c4f28237e4427a64a3df55b7c2f87",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "expiry": "2026-10-13",
+        "legs": [
+          {
+            "key": "ce_buy",
+            "opt": "CE",
+            "side": "BUY",
+            "strike": 22800,
+            "type": "Core Buy"
+          },
+          {
+            "key": "ce_margin_hedge",
+            "opt": "CE",
+            "side": "BUY",
+            "strike": 23300,
+            "type": "Margin Hedge"
+          },
+          {
+            "key": "ce_sell",
+            "opt": "CE",
+            "side": "SELL",
+            "strike": 22500,
+            "type": "CE Sell"
+          }
+        ],
+        "level": "22600",
+        "lots": "2",
+        "strategy": "directional",
+        "view": "bearish"
+      },
+      "schema_version": 1,
+      "seq": 8,
+      "strategy": "directional",
+      "summary": "Deploy and register"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 2,
+      "event_id": "live-773d2de862b04c798cc8430432e28a63",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "1",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 9,
+      "strategy": "directional",
+      "summary": "Poll interval 1"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 2,
+      "event_id": "live-5913181f40e943ec84f86af723a31452",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "22800",
+        "ce_retrace": "22790",
+        "pe_ato_mode": "auto",
+        "pe_ato_strike": "",
+        "pe_entry": "",
+        "pe_retrace": "",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 10,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "SYNC_LOTS",
+      "allowed_lots": 2,
+      "event_id": "live-de77285f7480482cadf88f0efe362194",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 11,
+      "strategy": "directional",
+      "summary": "Sync lots from broker"
+    },
+    {
+      "action": "DEPLOY_DIRECTIONAL",
+      "allowed_lots": 2,
+      "event_id": "live-20153fb58bd146648b9468b00553b5c6",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "expiry": "2026-10-13",
+        "legs": [
+          {
+            "key": "ce_buy",
+            "opt": "CE",
+            "side": "BUY",
+            "strike": 22800,
+            "type": "Core Buy"
+          },
+          {
+            "key": "ce_margin_hedge",
+            "opt": "CE",
+            "side": "BUY",
+            "strike": 23300,
+            "type": "Margin Hedge"
+          },
+          {
+            "key": "ce_sell",
+            "opt": "CE",
+            "side": "SELL",
+            "strike": 22500,
+            "type": "CE Sell"
+          }
+        ],
+        "level": "22600",
+        "lots": "1",
+        "strategy": "directional",
+        "view": "bearish"
+      },
+      "schema_version": 1,
+      "seq": 12,
+      "strategy": "directional",
+      "summary": "Directional deploy"
+    },
+    {
+      "action": "REGISTER",
+      "allowed_lots": 2,
+      "event_id": "live-c12b45d6af44436a9878f8d492265d69",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ato_mon": "ce",
+        "ce_ato_mode": "auto",
+        "ce_buy": "NIFTY26O1322800CE",
+        "ce_dyn_hedge": "",
+        "ce_entry": 22850,
+        "ce_exit": 22840,
+        "ce_margin_hedge": "NIFTY26O1323300CE",
+        "ce_sell": "NIFTY26O1322500CE",
+        "confirm": true,
+        "expiry": "2026-10-13",
+        "order_mode": "live",
+        "pe_ato_mode": "auto",
+        "pe_buy": "",
+        "pe_dyn_hedge": "",
+        "pe_entry": "",
+        "pe_exit": "",
+        "pe_margin_hedge": "",
+        "pe_sell": "",
+        "poll_interval": 1,
+        "reg_scope": "ce",
+        "strategy": "directional",
+        "view": "bearish"
+      },
+      "schema_version": 1,
+      "seq": 13,
+      "strategy": "directional",
+      "summary": "Register"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 2,
+      "event_id": "live-aa4ad74486134f9fa92e817e694a150a",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "2",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 14,
+      "strategy": "directional",
+      "summary": "Poll interval 2"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 2,
+      "event_id": "live-efc6b41d45f849d4a0f7e2737a823940",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "1",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 15,
+      "strategy": "directional",
+      "summary": "Poll interval 1"
+    },
+    {
+      "action": "DEPLOY_DIRECTIONAL",
+      "allowed_lots": 2,
+      "event_id": "live-8b0d7339037a4e2797d0cde99a8203a0",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "expiry": "2026-10-13",
+        "legs": [
+          {
+            "key": "ce_buy",
+            "opt": "CE",
+            "side": "BUY",
+            "strike": 22800,
+            "type": "Core Buy"
+          },
+          {
+            "key": "ce_margin_hedge",
+            "opt": "CE",
+            "side": "BUY",
+            "strike": 23300,
+            "type": "Margin Hedge"
+          },
+          {
+            "key": "ce_sell",
+            "opt": "CE",
+            "side": "SELL",
+            "strike": 22500,
+            "type": "CE Sell"
+          }
+        ],
+        "level": "22600",
+        "lots": "1",
+        "strategy": "directional",
+        "view": "bearish"
+      },
+      "schema_version": 1,
+      "seq": 16,
+      "strategy": "directional",
+      "summary": "Directional deploy"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 2,
+      "event_id": "live-65c2e18dd7c043099c3d5df30a4d88d1",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_entry": "22800",
+        "ce_retrace": "22790",
+        "pe_ato_mode": "auto",
+        "pe_entry": "",
+        "pe_retrace": ""
+      },
+      "schema_version": 1,
+      "seq": 17,
+      "strategy": "",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "SAFE_EXIT",
+      "allowed_lots": 2,
+      "event_id": "live-97560bd416b3451f8e2643f29ada6e17",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 1000.0,
+        "on": true
+      },
+      "schema_version": 1,
+      "seq": 18,
+      "strategy": "",
+      "summary": "Stop loss save"
+    },
+    {
+      "action": "TAKE_PROFIT",
+      "allowed_lots": 2,
+      "event_id": "live-0c352561de8546eab7a0c11b760fedb5",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 25000.0,
+        "on": true
+      },
+      "schema_version": 1,
+      "seq": 19,
+      "strategy": "",
+      "summary": "Target save"
+    },
+    {
+      "action": "SAFE_EXIT",
+      "allowed_lots": 2,
+      "event_id": "live-150c666c24f14791aa9e9d2c89a6e170",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 1000.0,
+        "on": false
+      },
+      "schema_version": 1,
+      "seq": 20,
+      "strategy": "",
+      "summary": "Stop loss save"
+    },
+    {
+      "action": "TAKE_PROFIT",
+      "allowed_lots": 2,
+      "event_id": "live-01cc6e57f4d8472dbffb653c09011524",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 25000.0,
+        "on": false
+      },
+      "schema_version": 1,
+      "seq": 21,
+      "strategy": "",
+      "summary": "Target save"
+    },
+    {
+      "action": "SAFE_EXIT",
+      "allowed_lots": 2,
+      "event_id": "live-e22d19b4756245ea8395bcbd7919c86a",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 1000.0,
+        "on": false
+      },
+      "schema_version": 1,
+      "seq": 22,
+      "strategy": "",
+      "summary": "Stop loss save"
+    },
+    {
+      "action": "TAKE_PROFIT",
+      "allowed_lots": 2,
+      "event_id": "live-43a7c206c24e4836ab0401fa2ddce568",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 25000.0,
+        "on": false
+      },
+      "schema_version": 1,
+      "seq": 23,
+      "strategy": "",
+      "summary": "Target save"
+    },
+    {
+      "action": "SAFE_EXIT",
+      "allowed_lots": 2,
+      "event_id": "live-42e46b00c3604e448ce7044540da2291",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 1000.0,
+        "on": false
+      },
+      "schema_version": 1,
+      "seq": 24,
+      "strategy": "",
+      "summary": "Stop loss save"
+    },
+    {
+      "action": "TAKE_PROFIT",
+      "allowed_lots": 2,
+      "event_id": "live-bbbfe78a08764a06a9fda430e7c5ff08",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 25000.0,
+        "on": false
+      },
+      "schema_version": 1,
+      "seq": 25,
+      "strategy": "",
+      "summary": "Target save"
+    },
+    {
+      "action": "SYNC_LOTS",
+      "allowed_lots": 2,
+      "event_id": "live-9e7a6d84faef40aa9e8733ea1f310c41",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 26,
+      "strategy": "directional",
+      "summary": "Sync lots from broker"
+    },
+    {
+      "action": "DEPLOY_DIRECTIONAL",
+      "allowed_lots": 2,
+      "event_id": "live-b062d96ff09943e89d8f30b50ce81675",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "expiry": "2026-10-13",
+        "legs": [
+          {
+            "key": "ce_buy",
+            "opt": "CE",
+            "side": "BUY",
+            "strike": 22800,
+            "type": "Core Buy"
+          },
+          {
+            "key": "ce_margin_hedge",
+            "opt": "CE",
+            "side": "BUY",
+            "strike": 23300,
+            "type": "Margin Hedge"
+          },
+          {
+            "key": "ce_sell",
+            "opt": "CE",
+            "side": "SELL",
+            "strike": 22500,
+            "type": "CE Sell"
+          }
+        ],
+        "level": "22600",
+        "lots": "1",
+        "strategy": "directional",
+        "view": "bearish"
+      },
+      "schema_version": 1,
+      "seq": 27,
+      "strategy": "directional",
+      "summary": "Directional deploy"
+    },
+    {
+      "action": "SYNC_LOTS",
+      "allowed_lots": 2,
+      "event_id": "live-26a7ce84591541c6bbb27432942c2cc0",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 28,
+      "strategy": "directional",
+      "summary": "Sync lots from broker"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 2,
+      "event_id": "live-34a40d8b635a406b840dbb0a8045ee49",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "22800",
+        "ce_retrace": "22790",
+        "pe_ato_mode": "auto",
+        "pe_ato_strike": "",
+        "pe_entry": "",
+        "pe_retrace": "",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 29,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "TAKE_PROFIT",
+      "allowed_lots": 2,
+      "event_id": "live-01d49e725fc9492c8e2821784d4beb4e",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 25000.0,
+        "on": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 30,
+      "strategy": "directional",
+      "summary": "Target save"
+    },
+    {
+      "action": "TAKE_PROFIT",
+      "allowed_lots": 2,
+      "event_id": "live-1caa6e7a468249d887c76581b0efcc0a",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 12000.0,
+        "on": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 31,
+      "strategy": "directional",
+      "summary": "Target save"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-809011e60cad4fefb6fa3fc5026383a7",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "1",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 32,
+      "strategy": "directional",
+      "summary": "Poll interval 1"
+    },
+    {
+      "action": "TAKE_PROFIT",
+      "allowed_lots": 0,
+      "event_id": "live-80ee9505a48749b1a27a998511aae2f6",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 15000.0,
+        "on": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 33,
+      "strategy": "directional",
+      "summary": "Target save"
+    },
+    {
+      "action": "SAFE_EXIT",
+      "allowed_lots": 0,
+      "event_id": "live-5288bbb552ee4b6ca26d3d38560e3585",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 1000.0,
+        "on": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 34,
+      "strategy": "directional",
+      "summary": "Stop loss save"
+    },
+    {
+      "action": "SAFE_EXIT",
+      "allowed_lots": 0,
+      "event_id": "live-1425c2a809834e4c94d3db06d1fbf522",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 6000.0,
+        "on": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 35,
+      "strategy": "directional",
+      "summary": "Stop loss save"
+    },
+    {
+      "action": "SAFE_EXIT",
+      "allowed_lots": 0,
+      "event_id": "live-354420f754544e999f05a3b071c53885",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 6000.0,
+        "on": false,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 36,
+      "strategy": "directional",
+      "summary": "Stop loss save"
+    },
+    {
+      "action": "TAKE_PROFIT",
+      "allowed_lots": 0,
+      "event_id": "live-84954e9d878b4136b35b957351a16b7e",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 20000.0,
+        "on": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 37,
+      "strategy": "directional",
+      "summary": "Target save"
+    },
+    {
+      "action": "FLATTEN",
+      "allowed_lots": 0,
+      "event_id": "live-ae1e665d09b645128e83c75395789ee5",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 38,
+      "strategy": "directional",
+      "summary": "Emergency exit"
+    },
+    {
+      "action": "COMPLETE",
+      "allowed_lots": 0,
+      "event_id": "live-2ed25a2ea61446a4acdcfab52b74af8a",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 39,
+      "strategy": "directional",
+      "summary": "Batman complete"
+    },
+    {
+      "action": "COMPLETE",
+      "allowed_lots": 0,
+      "event_id": "live-22f47e8bcf2e42d58d7e4c248c0275a7",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "strategy": "batman"
+      },
+      "schema_version": 1,
+      "seq": 40,
+      "strategy": "batman",
+      "summary": "Batman complete"
+    },
+    {
+      "action": "DEPLOY",
+      "allowed_lots": 1,
+      "event_id": "live-fa27a7c16a304d5ca4287b2c63c0e1c5",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "expiry": "2026-10-06",
+        "level": "22550",
+        "lots": "1",
+        "strategy": "batman"
+      },
+      "schema_version": 1,
+      "seq": 41,
+      "strategy": "batman",
+      "summary": "Batman deploy"
+    },
+    {
+      "action": "REGISTER",
+      "allowed_lots": 0,
+      "event_id": "live-346abeccfa244101b86699b2f5b81df6",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ato_mon": "both",
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_buy": "NIFTY26O0622800CE",
+        "ce_dyn_hedge": "NIFTY26O0623000CE",
+        "ce_entry": "22850",
+        "ce_exit": "22840",
+        "ce_margin_hedge": "NIFTY26O0623550CE",
+        "ce_sell": "NIFTY26O0622850CE",
+        "confirm": true,
+        "expiry": "2026-10-06",
+        "order_mode": "live",
+        "pe_ato_mode": "auto",
+        "pe_ato_strike": "",
+        "pe_buy": "NIFTY26O0622300PE",
+        "pe_dyn_hedge": "NIFTY26O0622000PE",
+        "pe_entry": "22250",
+        "pe_exit": "22260",
+        "pe_margin_hedge": "NIFTY26O0621550PE",
+        "pe_sell": "NIFTY26O0622250PE",
+        "reg_scope": "both",
+        "strategy": "batman"
+      },
+      "schema_version": 1,
+      "seq": 42,
+      "strategy": "batman",
+      "summary": "Register"
+    },
+    {
+      "action": "COMPLETE",
+      "allowed_lots": 0,
+      "event_id": "live-eadaf2ba944a41bca09e5d896d3565b0",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "strategy": "batman"
+      },
+      "schema_version": 1,
+      "seq": 43,
+      "strategy": "batman",
+      "summary": "Batman complete"
+    },
+    {
+      "action": "DEPLOY_REGISTER",
+      "allowed_lots": 10,
+      "event_id": "live-96ea9483fb784f74afd67f321d81bd4d",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "expiry": "2026-10-13",
+        "legs": [
+          {
+            "key": "ce_buy",
+            "opt": "CE",
+            "side": "BUY",
+            "strike": 22800,
+            "type": "Core Buy"
+          },
+          {
+            "key": "ce_margin_hedge",
+            "opt": "CE",
+            "side": "BUY",
+            "strike": 23300,
+            "type": "Margin Hedge"
+          },
+          {
+            "key": "ce_sell",
+            "opt": "CE",
+            "side": "SELL",
+            "strike": 22500,
+            "type": "CE Sell"
+          }
+        ],
+        "level": "22650",
+        "lots": "10",
+        "strategy": "directional",
+        "view": "bearish"
+      },
+      "schema_version": 1,
+      "seq": 44,
+      "strategy": "directional",
+      "summary": "Deploy and register"
+    },
+    {
+      "action": "TAKE_PROFIT",
+      "allowed_lots": 0,
+      "event_id": "live-45e3d6ad7eeb47c69f3076d61b7f3d32",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 20000.0,
+        "on": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 45,
+      "strategy": "directional",
+      "summary": "Target save"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-98b8d5097cc64ca9997797c11600519f",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "1",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 46,
+      "strategy": "directional",
+      "summary": "Poll interval 1"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-e7b6ef45fe6d4881866bba7a32dbc80f",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "22735",
+        "ce_retrace": "22730",
+        "pe_ato_mode": "auto",
+        "pe_ato_strike": "",
+        "pe_entry": "",
+        "pe_retrace": "",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 47,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "DEPLOY_DIRECTIONAL",
+      "allowed_lots": 10,
+      "event_id": "live-cccabb7e06004ba194cba725e3e8ee91",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "expiry": "2026-10-13",
+        "legs": [
+          {
+            "key": "ce_buy",
+            "opt": "CE",
+            "side": "BUY",
+            "strike": 22800,
+            "type": "Core Buy"
+          },
+          {
+            "key": "ce_margin_hedge",
+            "opt": "CE",
+            "side": "BUY",
+            "strike": 23300,
+            "type": "Margin Hedge"
+          },
+          {
+            "key": "ce_sell",
+            "opt": "CE",
+            "side": "SELL",
+            "strike": 22500,
+            "type": "CE Sell"
+          }
+        ],
+        "level": "22650",
+        "lots": "10",
+        "strategy": "directional",
+        "view": "bearish"
+      },
+      "schema_version": 1,
+      "seq": 48,
+      "strategy": "directional",
+      "summary": "Directional deploy"
+    },
+    {
+      "action": "TAKE_PROFIT",
+      "allowed_lots": 0,
+      "event_id": "live-7688bbb196184fdb8d708cada76f40dd",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 30000.0,
+        "on": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 49,
+      "strategy": "directional",
+      "summary": "Target save"
+    },
+    {
+      "action": "DEPLOY_DIRECTIONAL",
+      "allowed_lots": 10,
+      "event_id": "live-d8472f4e19ce44999af9b23d255a05a8",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "expiry": "2026-10-13",
+        "legs": [
+          {
+            "key": "ce_buy",
+            "opt": "CE",
+            "side": "BUY",
+            "strike": 22800,
+            "type": "Core Buy"
+          },
+          {
+            "key": "ce_margin_hedge",
+            "opt": "CE",
+            "side": "BUY",
+            "strike": 23300,
+            "type": "Margin Hedge"
+          },
+          {
+            "key": "ce_sell",
+            "opt": "CE",
+            "side": "SELL",
+            "strike": 22500,
+            "type": "CE Sell"
+          }
+        ],
+        "level": "22700",
+        "lots": "10",
+        "strategy": "directional",
+        "view": "bearish"
+      },
+      "schema_version": 1,
+      "seq": 50,
+      "strategy": "directional",
+      "summary": "Directional deploy"
+    },
+    {
+      "action": "TAKE_PROFIT",
+      "allowed_lots": 0,
+      "event_id": "live-280de5696eeb457c907e3d049f73e672",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 35000.0,
+        "on": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 51,
+      "strategy": "directional",
+      "summary": "Target save"
+    },
+    {
+      "action": "PAUSE",
+      "allowed_lots": 0,
+      "event_id": "live-c2d658d0501348d1ac361daf7e66b968",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 52,
+      "strategy": "directional",
+      "summary": "Kavach pause"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-1d73c39e29214f399acabdd93bda49de",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "1",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 53,
+      "strategy": "directional",
+      "summary": "Poll interval 1"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-d796fa8ee3884efbbda41456da0b9d70",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "custom",
+        "ce_ato_strike": "22950",
+        "ce_entry": "22810",
+        "ce_retrace": "22800",
+        "pe_ato_mode": "auto",
+        "pe_ato_strike": "",
+        "pe_entry": "",
+        "pe_retrace": "",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 54,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-1a5a695fccdb404ba87396385df2f0ec",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "custom",
+        "ce_ato_strike": "22700",
+        "ce_entry": "22810",
+        "ce_retrace": "22800",
+        "pe_ato_mode": "auto",
+        "pe_ato_strike": "",
+        "pe_entry": "",
+        "pe_retrace": "",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 55,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-1094a1d8f5634c61b56bf9e7f324591c",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "custom",
+        "ce_ato_strike": "22700",
+        "ce_entry": "22810",
+        "ce_retrace": "22800",
+        "pe_ato_mode": "auto",
+        "pe_ato_strike": "",
+        "pe_entry": "",
+        "pe_retrace": "",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 56,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-2641ea3bbbc0420aaa013e982bfa2282",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "custom",
+        "ce_ato_strike": "22700",
+        "ce_entry": "22650",
+        "ce_retrace": "22645",
+        "pe_ato_mode": "auto",
+        "pe_ato_strike": "",
+        "pe_entry": "",
+        "pe_retrace": "",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 57,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "PAUSE",
+      "allowed_lots": 0,
+      "event_id": "live-a94940e9cc9e415d8c6e0b8be3be2b92",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 58,
+      "strategy": "directional",
+      "summary": "Kavach pause"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-d0724a384e0e4e7180e337b96d999649",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "custom",
+        "ce_ato_strike": "22700",
+        "ce_entry": "22800",
+        "ce_retrace": "22790",
+        "pe_ato_mode": "auto",
+        "pe_ato_strike": "",
+        "pe_entry": "",
+        "pe_retrace": "",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 59,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "PAUSE",
+      "allowed_lots": 0,
+      "event_id": "live-93178ef1d53f4e47b767f9da0a8fd628",
+      "master_vps_id": "master-anand",
+      "payload": {},
+      "schema_version": 1,
+      "seq": 60,
+      "strategy": "",
+      "summary": "Kavach pause"
+    },
+    {
+      "action": "RESUME",
+      "allowed_lots": 0,
+      "event_id": "live-58dbddb13aed481288d0185e5e6a2ec3",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 61,
+      "strategy": "directional",
+      "summary": "Kavach resume"
+    },
+    {
+      "action": "PAUSE",
+      "allowed_lots": 0,
+      "event_id": "live-d3aa35ca2bd4448c9c72e098fd53bbc7",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 62,
+      "strategy": "directional",
+      "summary": "Kavach pause"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-91d41567ace840c18eb75e2aced4a32f",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "2",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 63,
+      "strategy": "directional",
+      "summary": "Poll interval 2"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-b0be15d4a6af41d0a72be7809b3350a1",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "1",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 64,
+      "strategy": "directional",
+      "summary": "Poll interval 1"
+    },
+    {
+      "action": "SYNC_LOTS",
+      "allowed_lots": 0,
+      "event_id": "live-2a9566e27c5d45c793eb3c32b13f04ae",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 65,
+      "strategy": "directional",
+      "summary": "Sync lots from broker"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-9f7d93394f12460ca7921857395273d7",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22350",
+        "pe_entry": "22415",
+        "pe_retrace": "22420",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 66,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-b5f92922a09e4714b09244941d2588ed",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22350",
+        "pe_entry": "22400",
+        "pe_retrace": "22405",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 67,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-a6f6751691784192ac1b6f1197f136d0",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22350",
+        "pe_entry": "22390",
+        "pe_retrace": "22395",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 68,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-696cae0ab98042bab4d1ff607e131c52",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22350",
+        "pe_entry": "22355",
+        "pe_retrace": "22360",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 69,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-d5ac70a3d1e845be9c3bf685465b2005",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22350",
+        "pe_entry": "22355",
+        "pe_retrace": "22360",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 70,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-04f0f117f8f74b158f4488c15eeb3775",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22350",
+        "pe_entry": "22355",
+        "pe_retrace": "22360",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 71,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-209c02baf3d94b44b4df272e4fd3b327",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22350",
+        "pe_entry": "22340",
+        "pe_retrace": "22345",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 72,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-5ce8ebe6fa654e0c8ec3f81793ce6a6e",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22350",
+        "pe_entry": "22325",
+        "pe_retrace": "22330",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 73,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "SYNC_LOTS",
+      "allowed_lots": 0,
+      "event_id": "live-3b021e26845742b99f945ccf1cc6b385",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 74,
+      "strategy": "directional",
+      "summary": "Sync lots from broker"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-9939b303eb5a494e979c93eef57528dc",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22350",
+        "pe_entry": "22315",
+        "pe_retrace": "22320",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 75,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "PAUSE",
+      "allowed_lots": 0,
+      "event_id": "live-945de40263b742cda24e951c396d6731",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 76,
+      "strategy": "directional",
+      "summary": "Kavach pause"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-536ae80ce3644274ba837bedd5f3b2df",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "1",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 77,
+      "strategy": "directional",
+      "summary": "Poll interval 1"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-d78836e5f9784ba08a8da911ac823384",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22250",
+        "pe_entry": "22300",
+        "pe_retrace": "22305",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 78,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-65a725d1eec247239c78fdc9b202a132",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22250",
+        "pe_entry": "22290",
+        "pe_retrace": "22295",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 79,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-0b926dcb2f0e44fdad01c411cd3a57a0",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22250",
+        "pe_entry": "22280",
+        "pe_retrace": "22285",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 80,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-6d70cff8cc2c462ab6e1383f147aa6fc",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22250",
+        "pe_entry": "22270",
+        "pe_retrace": "22275",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 81,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-0fd12d8a1df7475ebb8fdb5002c083a6",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "0",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 82,
+      "strategy": "directional",
+      "summary": "Poll interval 0"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-51718d7ee4494780a37e985497460d94",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22250",
+        "pe_entry": "22250",
+        "pe_retrace": "22255",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 83,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-6b7f16ef28664c2c94eab3e8a89d9737",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "1",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 84,
+      "strategy": "directional",
+      "summary": "Poll interval 1"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-d949f83250bf468785b84757e8c0c208",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "0",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 85,
+      "strategy": "directional",
+      "summary": "Poll interval 0"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-d1b7be4d1a1b4bd4aedc50be05d760b1",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22250",
+        "pe_entry": "22230",
+        "pe_retrace": "22235",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 86,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-8ede538770f3422badcfd2ee51d25771",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22250",
+        "pe_entry": "22225",
+        "pe_retrace": "22230",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 87,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "TAKE_PROFIT",
+      "allowed_lots": 0,
+      "event_id": "live-96dc61ef6c3f4322951799c6539bcfe6",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "level": 200000.0,
+        "on": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 88,
+      "strategy": "directional",
+      "summary": "Target save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-3d7eb07fce7f40b5877018ee7b4d6ad4",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22250",
+        "pe_entry": "22215",
+        "pe_retrace": "22220",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 89,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-1ffafe8fb0c043bb89b0446448555f10",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "custom",
+        "pe_ato_strike": "22250",
+        "pe_entry": "22215",
+        "pe_retrace": "22230",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 90,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "PAUSE",
+      "allowed_lots": 0,
+      "event_id": "live-ae569f9068cf48bd9afda6dcb5909c4d",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 91,
+      "strategy": "directional",
+      "summary": "Kavach pause"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-5b10635af6d243af9044303c5cbae527",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "auto",
+        "pe_ato_strike": "",
+        "pe_entry": "22205",
+        "pe_retrace": "22210",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 92,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-f70c6fd424bf4859af28410da5530426",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "auto",
+        "pe_ato_strike": "",
+        "pe_entry": "22200",
+        "pe_retrace": "22205",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 93,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "BUFFER",
+      "allowed_lots": 0,
+      "event_id": "live-3bee4435432a48a5a4525712f9947020",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "ce_ato_mode": "auto",
+        "ce_ato_strike": "",
+        "ce_entry": "",
+        "ce_retrace": "",
+        "pe_ato_mode": "auto",
+        "pe_ato_strike": "",
+        "pe_entry": "22190",
+        "pe_retrace": "22195",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 94,
+      "strategy": "directional",
+      "summary": "Buffer save"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-388ce87918874db998b572d9b3de0dd6",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "1",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 95,
+      "strategy": "directional",
+      "summary": "Poll interval 1"
+    },
+    {
+      "action": "PAUSE",
+      "allowed_lots": 0,
+      "event_id": "live-bb4c4d116440485c921ec62ee9fa8b5b",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 96,
+      "strategy": "directional",
+      "summary": "Kavach pause"
+    },
+    {
+      "action": "COMPLETE",
+      "allowed_lots": 0,
+      "event_id": "live-ba1ae2ce9075421c97a90e70680ad471",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 97,
+      "strategy": "directional",
+      "summary": "Batman complete"
+    },
+    {
+      "action": "PAUSE",
+      "allowed_lots": 0,
+      "event_id": "live-e8928d2721b14b37a4c96bb64b5523fa",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 98,
+      "strategy": "directional",
+      "summary": "Kavach pause"
+    },
+    {
+      "action": "RESUME",
+      "allowed_lots": 0,
+      "event_id": "live-37e645b3dc954a099fdd8bac7312f0c0",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 99,
+      "strategy": "directional",
+      "summary": "Kavach resume"
+    },
+    {
+      "action": "COMPLETE",
+      "allowed_lots": 0,
+      "event_id": "live-a1df044b8f4543e787cac4272605203a",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 100,
+      "strategy": "directional",
+      "summary": "Batman complete"
+    },
+    {
+      "action": "COMPLETE",
+      "allowed_lots": 0,
+      "event_id": "live-8ab4a5a5900344e9aa3b031bb5aab92a",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 101,
+      "strategy": "directional",
+      "summary": "Batman complete"
+    },
+    {
+      "action": "DEPLOY_REGISTER",
+      "allowed_lots": 1,
+      "event_id": "live-0f810220d908406a9a38db9b526d9186",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "expiry": "2026-10-13",
+        "legs": [
+          {
+            "key": "pe_buy",
+            "opt": "PE",
+            "side": "BUY",
+            "strike": 22500,
+            "type": "Core Buy"
+          },
+          {
+            "key": "pe_margin_hedge",
+            "opt": "PE",
+            "side": "BUY",
+            "strike": 22000,
+            "type": "Margin Hedge"
+          },
+          {
+            "key": "pe_sell",
+            "opt": "PE",
+            "side": "SELL",
+            "strike": 22700,
+            "type": "PE Sell"
+          }
+        ],
+        "level": "22500",
+        "lots": "1",
+        "strategy": "directional",
+        "view": "bullish"
+      },
+      "schema_version": 1,
+      "seq": 102,
+      "strategy": "directional",
+      "summary": "Deploy and register"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-e4e323419ab444f89b6c8aa06d35019c",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "1",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 103,
+      "strategy": "directional",
+      "summary": "Poll interval 1"
+    },
+    {
+      "action": "POLL",
+      "allowed_lots": 0,
+      "event_id": "live-1bdbc9f40b224b80ac145857e709c11f",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "poll_interval": "1",
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 104,
+      "strategy": "directional",
+      "summary": "Poll interval 1"
+    },
+    {
+      "action": "COMPLETE",
+      "allowed_lots": 0,
+      "event_id": "live-66d3656caf754868a6f6b3e8e08521e1",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "confirm": true,
+        "strategy": "directional"
+      },
+      "schema_version": 1,
+      "seq": 105,
+      "strategy": "directional",
+      "summary": "Batman complete"
+    },
+    {
+      "action": "HEDGE",
+      "allowed_lots": 0,
+      "event_id": "live-e14ca04368a442e78bfb9a42d47f4de8",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "enabled": true,
+        "strategy": "batman"
+      },
+      "schema_version": 1,
+      "seq": 106,
+      "strategy": "batman",
+      "summary": "35% dynamic hedge on"
+    },
+    {
+      "action": "HEDGE",
+      "allowed_lots": 0,
+      "event_id": "live-6ffbcff3c7bd43f18405dcc4383b264e",
+      "master_vps_id": "master-anand",
+      "payload": {
+        "enabled": false,
+        "strategy": "batman"
+      },
+      "schema_version": 1,
+      "seq": 107,
+      "strategy": "batman",
+      "summary": "35% dynamic hedge off"
+    }
+  ],
+  "last_action": "HEDGE",
+  "last_delivery": {
+    "action": "HEDGE",
+    "event_id": "live-6ffbcff3c7bd43f18405dcc4383b264e",
+    "ms": 5.91,
+    "ok": true,
+    "status": 200
+  },
+  "last_event": {
+    "action": "HEDGE",
+    "allowed_lots": 0,
+    "event_id": "live-6ffbcff3c7bd43f18405dcc4383b264e",
+    "master_vps_id": "master-anand",
+    "payload": {
+      "enabled": false,
+      "strategy": "batman"
+    },
+    "schema_version": 1,
+    "seq": 107,
+    "strategy": "batman",
+    "summary": "35% dynamic hedge off"
+  },
+  "last_seq_received": 0,
+  "open_cycles": {},
+  "punch_log": [],
+  "recv_log": [],
+  "seen_ids": [],
+  "send_log": [
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "batman",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-02 14:00:22"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 4",
+      "ts": "2026-10-02 14:03:18"
+    },
+    {
+      "accepted": true,
+      "action": "COMPLETE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Batman complete",
+      "ts": "2026-10-02 14:04:01"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-05 04:10:32"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 2",
+      "ts": "2026-10-05 04:11:44"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-05 04:11:48"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 2",
+      "ts": "2026-10-05 04:16:49"
+    },
+    {
+      "accepted": true,
+      "action": "DEPLOY_REGISTER",
+      "detail": "applied",
+      "qty": "2",
+      "strategy": "directional",
+      "summary": "Deploy and register",
+      "ts": "2026-10-05 04:22:50"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-05 04:23:29"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-05 04:23:58"
+    },
+    {
+      "accepted": true,
+      "action": "SYNC_LOTS",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Sync lots from broker",
+      "ts": "2026-10-05 04:26:52"
+    },
+    {
+      "accepted": false,
+      "action": "DEPLOY_DIRECTIONAL",
+      "detail": "duplicate",
+      "qty": "1",
+      "strategy": "directional",
+      "summary": "Directional deploy",
+      "ts": "2026-10-05 04:35:24"
+    },
+    {
+      "accepted": true,
+      "action": "REGISTER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Register",
+      "ts": "2026-10-05 04:41:24"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 2",
+      "ts": "2026-10-05 04:43:21"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-05 04:43:39"
+    },
+    {
+      "accepted": true,
+      "action": "DEPLOY_DIRECTIONAL",
+      "detail": "applied",
+      "qty": "1",
+      "strategy": "directional",
+      "summary": "Directional deploy",
+      "ts": "2026-10-05 04:44:35"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Buffer save",
+      "ts": "2026-10-05 04:47:27"
+    },
+    {
+      "accepted": true,
+      "action": "SAFE_EXIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Stop loss save",
+      "ts": "2026-10-05 04:53:19"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Target save",
+      "ts": "2026-10-05 04:53:19"
+    },
+    {
+      "accepted": true,
+      "action": "SAFE_EXIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Stop loss save",
+      "ts": "2026-10-05 04:53:34"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Target save",
+      "ts": "2026-10-05 04:53:34"
+    },
+    {
+      "accepted": true,
+      "action": "SAFE_EXIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Stop loss save",
+      "ts": "2026-10-05 04:53:58"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Target save",
+      "ts": "2026-10-05 04:53:58"
+    },
+    {
+      "accepted": true,
+      "action": "SAFE_EXIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Stop loss save",
+      "ts": "2026-10-05 04:54:54"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Target save",
+      "ts": "2026-10-05 04:54:54"
+    },
+    {
+      "accepted": false,
+      "action": "SYNC_LOTS",
+      "detail": "No active deployment. Register first.",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Sync lots from broker",
+      "ts": "2026-10-05 05:04:39"
+    },
+    {
+      "accepted": true,
+      "action": "DEPLOY_DIRECTIONAL",
+      "detail": "applied",
+      "qty": "1",
+      "strategy": "directional",
+      "summary": "Directional deploy",
+      "ts": "2026-10-05 05:05:53"
+    },
+    {
+      "accepted": true,
+      "action": "SYNC_LOTS",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Sync lots from broker",
+      "ts": "2026-10-05 05:06:32"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-05 05:07:22"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-05 06:01:07"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-05 06:01:17"
+    },
+    {
+      "accepted": false,
+      "action": "POLL",
+      "detail": "allow_copy_off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-05 06:48:03"
+    },
+    {
+      "accepted": false,
+      "action": "TAKE_PROFIT",
+      "detail": "allow_copy_off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-05 07:19:02"
+    },
+    {
+      "accepted": false,
+      "action": "SAFE_EXIT",
+      "detail": "allow_copy_off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Stop loss save",
+      "ts": "2026-10-05 07:19:15"
+    },
+    {
+      "accepted": false,
+      "action": "SAFE_EXIT",
+      "detail": "allow_copy_off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Stop loss save",
+      "ts": "2026-10-05 07:19:21"
+    },
+    {
+      "accepted": false,
+      "action": "SAFE_EXIT",
+      "detail": "allow_copy_off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Stop loss save",
+      "ts": "2026-10-05 07:19:39"
+    },
+    {
+      "accepted": false,
+      "action": "TAKE_PROFIT",
+      "detail": "allow_copy_off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-05 08:11:43"
+    },
+    {
+      "accepted": false,
+      "action": "FLATTEN",
+      "detail": "allow_copy_off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Emergency exit",
+      "ts": "2026-10-05 08:13:36"
+    },
+    {
+      "accepted": false,
+      "action": "COMPLETE",
+      "detail": "allow_copy_off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Batman complete",
+      "ts": "2026-10-05 08:16:53"
+    },
+    {
+      "accepted": false,
+      "action": "COMPLETE",
+      "detail": "allow_copy_off",
+      "qty": "",
+      "strategy": "batman",
+      "summary": "Batman complete",
+      "ts": "2026-10-05 08:57:46"
+    },
+    {
+      "accepted": false,
+      "action": "DEPLOY",
+      "detail": "allow_copy_off",
+      "qty": "1",
+      "strategy": "batman",
+      "summary": "Batman deploy",
+      "ts": "2026-10-05 09:02:27"
+    },
+    {
+      "accepted": false,
+      "action": "REGISTER",
+      "detail": "allow_copy_off",
+      "qty": "",
+      "strategy": "batman",
+      "summary": "Register",
+      "ts": "2026-10-05 09:04:41"
+    },
+    {
+      "accepted": true,
+      "action": "COMPLETE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "batman",
+      "summary": "Batman complete",
+      "ts": "2026-10-06 04:23:10"
+    },
+    {
+      "accepted": true,
+      "action": "DEPLOY_REGISTER",
+      "detail": "applied",
+      "qty": "10",
+      "strategy": "directional",
+      "summary": "Deploy and register",
+      "ts": "2026-10-06 04:26:34"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-06 04:27:56"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-06 04:45:12"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-06 04:45:35"
+    },
+    {
+      "accepted": false,
+      "action": "DEPLOY_DIRECTIONAL",
+      "detail": "not applied",
+      "qty": "10",
+      "strategy": "directional",
+      "summary": "Directional deploy",
+      "ts": "2026-10-06 06:16:41"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-06 06:27:29"
+    },
+    {
+      "accepted": false,
+      "action": "DEPLOY_DIRECTIONAL",
+      "detail": "not applied",
+      "qty": "10",
+      "strategy": "directional",
+      "summary": "Directional deploy",
+      "ts": "2026-10-06 07:12:31"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-06 07:16:03"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach pause",
+      "ts": "2026-10-06 09:42:48"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-07 06:39:11"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-07 06:42:43"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-07 06:44:40"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-07 06:45:50"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-07 06:59:07"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach pause",
+      "ts": "2026-10-07 07:00:12"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-07 07:07:17"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "",
+      "summary": "Kavach pause",
+      "ts": "2026-10-07 07:08:56"
+    },
+    {
+      "accepted": true,
+      "action": "RESUME",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach resume",
+      "ts": "2026-10-07 07:09:49"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach pause",
+      "ts": "2026-10-07 07:29:53"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 2",
+      "ts": "2026-10-08 05:25:07"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-08 05:25:16"
+    },
+    {
+      "accepted": true,
+      "action": "SYNC_LOTS",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Sync lots from broker",
+      "ts": "2026-10-08 05:28:45"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:32:07"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:52:39"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:54:09"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:56:04"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:56:11"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:56:13"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:58:03"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 05:59:14"
+    },
+    {
+      "accepted": false,
+      "action": "SYNC_LOTS",
+      "detail": "allow_copy_off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Sync lots from broker",
+      "ts": "2026-10-08 06:36:10"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 06:48:59"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach pause",
+      "ts": "2026-10-08 06:50:21"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-08 06:53:18"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 06:53:32"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 07:02:54"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 07:05:10"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 07:10:23"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 0",
+      "ts": "2026-10-08 07:27:28"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 07:29:06"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-08 07:47:54"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 0",
+      "ts": "2026-10-08 07:48:00"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 07:51:41"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 08:01:49"
+    },
+    {
+      "accepted": true,
+      "action": "TAKE_PROFIT",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Target save",
+      "ts": "2026-10-08 08:08:10"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 08:31:46"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 08:33:43"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach pause",
+      "ts": "2026-10-08 08:35:18"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 08:41:03"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 08:48:42"
+    },
+    {
+      "accepted": true,
+      "action": "BUFFER",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Buffer save",
+      "ts": "2026-10-08 08:52:42"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-08 09:04:45"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach pause",
+      "ts": "2026-10-08 09:34:29"
+    },
+    {
+      "accepted": true,
+      "action": "COMPLETE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Batman complete",
+      "ts": "2026-10-08 10:13:16"
+    },
+    {
+      "accepted": true,
+      "action": "PAUSE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach pause",
+      "ts": "2026-10-09 08:19:19"
+    },
+    {
+      "accepted": true,
+      "action": "RESUME",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Kavach resume",
+      "ts": "2026-10-09 08:19:22"
+    },
+    {
+      "accepted": true,
+      "action": "COMPLETE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Batman complete",
+      "ts": "2026-10-09 08:19:27"
+    },
+    {
+      "accepted": true,
+      "action": "COMPLETE",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Batman complete",
+      "ts": "2026-10-09 08:19:35"
+    },
+    {
+      "accepted": false,
+      "action": "DEPLOY_REGISTER",
+      "detail": "not applied",
+      "qty": "1",
+      "strategy": "directional",
+      "summary": "Deploy and register",
+      "ts": "2026-10-12 04:44:40"
+    },
+    {
+      "accepted": false,
+      "action": "POLL",
+      "detail": "not applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-15 05:11:56"
+    },
+    {
+      "accepted": true,
+      "action": "POLL",
+      "detail": "applied",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Poll interval 1",
+      "ts": "2026-10-15 05:18:34"
+    },
+    {
+      "accepted": false,
+      "action": "COMPLETE",
+      "detail": "allow_copy_off",
+      "qty": "",
+      "strategy": "directional",
+      "summary": "Batman complete",
+      "ts": "2026-10-17 09:28:58"
+    },
+    {
+      "accepted": false,
+      "action": "HEDGE",
+      "detail": "allow_copy_off",
+      "qty": "",
+      "strategy": "batman",
+      "summary": "35% dynamic hedge on",
+      "ts": "2026-10-17 09:31:44"
+    },
+    {
+      "accepted": false,
+      "action": "HEDGE",
+      "detail": "allow_copy_off",
+      "qty": "",
+      "strategy": "batman",
+      "summary": "35% dynamic hedge off",
+      "ts": "2026-10-17 09:31:45"
+    }
+  ],
+  "seq": 107
+}

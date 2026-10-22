@@ -1,0 +1,17 @@
+{
+  "ce": {
+    "holding": false,
+    "holding_since_ist": null,
+    "sell_strike": null,
+    "protect_strike": null
+  },
+  "pe": {
+    "holding": false,
+    "holding_since_ist": null,
+    "sell_strike": null,
+    "protect_strike": null
+  },
+  "cycles_completed_today": 107,
+  "net_point_impact": -63.8,
+  "updated_at_ist": "2026-10-14 13:06:38 IST"
+}

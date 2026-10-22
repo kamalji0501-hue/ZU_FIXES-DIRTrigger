@@ -1,0 +1,15 @@
+{
+  "ts": "2026-08-27T01:20:02",
+  "root": "/home/ubuntu/rahul_Changes",
+  "service": "batman-drishti.service",
+  "service_action": "already_active",
+  "jwt": {
+    "configured": true,
+    "auto_renew": true,
+    "refreshed": false,
+    "hours_left": 21.715719394166666,
+    "need_refresh": false
+  },
+  "service_active": true,
+  "ok": true
+}

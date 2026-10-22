@@ -1,0 +1,26 @@
+{
+  "master": {
+    "id": "master-anand",
+    "label": "Anand Master",
+    "base_url": "http://127.0.0.1:8789",
+    "public_url": "http://3.6.39.208:8789",
+    "aws_account": "Kamal AWS",
+    "link_type": "local",
+    "local": true
+  },
+  "children": [
+    {
+      "id": "child-aman",
+      "label": "Aman",
+      "base_url": "http://3.6.92.213:8789",
+      "copy_key_env": "FLEET_COPY_KEY_AMAN",
+      "aws_account": "Kamal AWS",
+      "link_type": "public",
+      "enabled": true
+    }
+  ],
+  "poll": {
+    "state_sec": 30,
+    "margin_sec": 300
+  }
+}

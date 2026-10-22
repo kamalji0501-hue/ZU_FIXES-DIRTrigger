@@ -1,0 +1,8 @@
+{
+  "bot": "drishti",
+  "status": "running",
+  "pid": 5707,
+  "updated_at": "2026-08-27T01:22:30.961861+05:30",
+  "nifty_cache_ready": false,
+  "nifty_cache_detail": "cache not ready age=660837s limit=5s healthy=False failures=36"
+}

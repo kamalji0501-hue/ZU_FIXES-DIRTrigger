@@ -1,0 +1,12 @@
+{
+  "bot": "kavach2",
+  "status": "running",
+  "pid": 40907,
+  "updated_at": "2026-08-27T02:54:41.461396+05:30",
+  "deployment_confirmed": false,
+  "ce_ato_active": false,
+  "pe_ato_active": false,
+  "nifty_cache_ready": false,
+  "nifty_cache_detail": "cache not ready age=5523s limit=5s healthy=True failures=0",
+  "broker_connected": true
+}

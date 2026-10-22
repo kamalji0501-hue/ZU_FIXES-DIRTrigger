@@ -1,0 +1,3 @@
+ts_ist,date_ist,event_type,status_label,source,scenario,severity,category,title,error_message,next_action,resolution_message,incident_id,repeat_count,routed_to_source,source_delivery_ok,routed_to_jagran,jagran_delivery_ok
+12:37:45.476 IST,2026-07-11,incident,REPEAT,LAUNCHER,start_all_error,warning,start_all,Start All Error,=== Phase 1 Start All — FAILURE (supervisor rc=1) ===,See launcher log and Show Bot Status.bat.,,start_all::start_all_error,2,False,False,False,False
+18:36:42.448 IST,2026-07-11,incident,TRIGGERED,LAUNCHER,start_all_error,warning,start_all,Start All Error,=== Phase 1 Start All — FAILURE (supervisor rc=2) ===,See launcher log and Show Bot Status.bat.,,start_all::start_all_error,1,False,False,False,False

@@ -1,0 +1,8 @@
+{
+  "last_sent_ts": 1789789815.9204726,
+  "last_text": "ATO BLOCKED: NIFTY cache stale 9580s \u2014 check Datafeedbot. Check Datafeedbot.",
+  "armed": false,
+  "hard_key": "nifty_cache_stale",
+  "summary": "ATO BLOCKED \u2014 NIFTY cache stale 9580s \u2014 check Datafeedbot",
+  "checked_at": "2026-09-19T03:50:15+00:00"
+}

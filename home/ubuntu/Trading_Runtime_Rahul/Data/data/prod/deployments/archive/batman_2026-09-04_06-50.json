@@ -1,0 +1,167 @@
+{
+  "schema_version": 1.1,
+  "order_mode": "live",
+  "deployed_at": "2026-09-04T06:50:47.622959+00:00",
+  "registered_at": "Friday 04-Sep-2026 at 06:50",
+  "file_name": "batman_2026-09-04_06-50.json",
+  "source": "kavach_web",
+  "retrace_points": 20,
+  "ato_manage_sides": "both",
+  "registration_scope": {
+    "schema_version": 2,
+    "pe_enabled": true,
+    "ce_enabled": true,
+    "pe_managed_lots": 1,
+    "ce_managed_lots": 1,
+    "pe_ato_lots": 1,
+    "ce_ato_lots": 1,
+    "lot_size": 65,
+    "expiry": "2026-09-08",
+    "expiry_label": "Expiry \u2014 08 Sep 2026"
+  },
+  "positions": {
+    "pe_buy": {
+      "symbol": "NIFTY2690823750PE",
+      "display_symbol": "NIFTY2690823750PE",
+      "strike": 23750,
+      "qty": 65,
+      "avg_price": 27.55,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "08 Sep 2026",
+      "instrument_token": ""
+    },
+    "pe_margin_hedge": {
+      "symbol": "NIFTY2690823000PE",
+      "display_symbol": "NIFTY2690823000PE",
+      "strike": 23000,
+      "qty": 65,
+      "avg_price": 2.45,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "08 Sep 2026",
+      "instrument_token": ""
+    },
+    "pe_dyn_hedge": {
+      "symbol": "NIFTY2690823500PE",
+      "display_symbol": "NIFTY2690823500PE",
+      "strike": 23500,
+      "qty": 65,
+      "avg_price": 7.2,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "08 Sep 2026",
+      "instrument_token": ""
+    },
+    "pe_sell": {
+      "symbol": "NIFTY2690823700PE",
+      "display_symbol": "NIFTY2690823700PE",
+      "strike": 23700,
+      "qty": 130,
+      "avg_price": 20.8,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "SHORT",
+      "transaction_type": "SELL",
+      "lot_size": 65,
+      "expiry": "08 Sep 2026",
+      "instrument_token": ""
+    },
+    "ce_buy": {
+      "symbol": "NIFTY2690824250CE",
+      "display_symbol": "NIFTY2690824250CE",
+      "strike": 24250,
+      "qty": 65,
+      "avg_price": 18.05,
+      "option_type": "CE",
+      "opt_type": "CE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "08 Sep 2026",
+      "instrument_token": ""
+    },
+    "ce_margin_hedge": {
+      "symbol": "NIFTY2690825000CE",
+      "display_symbol": "NIFTY2690825000CE",
+      "strike": 25000,
+      "qty": 65,
+      "avg_price": 1.25,
+      "option_type": "CE",
+      "opt_type": "CE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "08 Sep 2026",
+      "instrument_token": ""
+    },
+    "ce_dyn_hedge": {
+      "symbol": "NIFTY2690824500CE",
+      "display_symbol": "NIFTY2690824500CE",
+      "strike": 24500,
+      "qty": 65,
+      "avg_price": 3.9,
+      "option_type": "CE",
+      "opt_type": "CE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "08 Sep 2026",
+      "instrument_token": ""
+    },
+    "ce_sell": {
+      "symbol": "NIFTY2690824300CE",
+      "display_symbol": "NIFTY2690824300CE",
+      "strike": 24300,
+      "qty": 130,
+      "avg_price": 12.3,
+      "option_type": "CE",
+      "opt_type": "CE",
+      "direction": "SHORT",
+      "transaction_type": "SELL",
+      "lot_size": 65,
+      "expiry": "08 Sep 2026",
+      "instrument_token": ""
+    }
+  },
+  "ato": {
+    "pe_protect_symbol": "NIFTY2690823650PE",
+    "pe_protect_strike": 23650,
+    "pe_protect_strike_mode": "FIXED",
+    "ce_protect_symbol": "NIFTY2690824350CE",
+    "ce_protect_strike": 24350,
+    "ce_protect_strike_mode": "FIXED",
+    "ato_step": 50,
+    "ce_entry_buffer": {
+      "type": "CUSTOM",
+      "value": "-10"
+    },
+    "pe_entry_buffer": {
+      "type": "CUSTOM",
+      "value": "-280"
+    },
+    "ce_retrace_buffer": {
+      "type": "CUSTOM",
+      "value": "20"
+    },
+    "pe_retrace_buffer": {
+      "type": "CUSTOM",
+      "value": "290"
+    },
+    "ce_entry_buffer_points": -10,
+    "pe_entry_buffer_points": -280,
+    "ce_retrace_points": 20,
+    "pe_retrace_points": 290,
+    "poll_interval_seconds": 2
+  },
+  "status": "armed"
+}

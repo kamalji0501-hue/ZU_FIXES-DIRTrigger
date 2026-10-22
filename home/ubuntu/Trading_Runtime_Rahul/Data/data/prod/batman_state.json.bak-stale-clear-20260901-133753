@@ -1,0 +1,263 @@
+{
+  "session_id": "20260827-025613",
+  "started_at": "2026-08-27T02:56:13.520227",
+  "session": {
+    "emergency_exited": false
+  },
+  "positions": {
+    "ce_sell": {
+      "symbol": "NIFTY2690124350CE",
+      "display_symbol": "NIFTY2690124350CE",
+      "strike": 24350,
+      "qty": 130,
+      "avg_price": 9.8,
+      "option_type": "CE",
+      "opt_type": "CE",
+      "direction": "SHORT",
+      "transaction_type": "SELL",
+      "lot_size": 65,
+      "expiry": "UNKNOWN",
+      "instrument_token": "12031746"
+    },
+    "ce_buy": {
+      "symbol": "NIFTY2690124300CE",
+      "display_symbol": "NIFTY2690124300CE",
+      "strike": 24300,
+      "qty": 65,
+      "avg_price": 14.7,
+      "option_type": "CE",
+      "opt_type": "CE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "UNKNOWN",
+      "instrument_token": "12031234"
+    },
+    "pe_sell": {
+      "symbol": "NIFTY2690123750PE",
+      "display_symbol": "NIFTY2690123750PE",
+      "strike": 23750,
+      "qty": 130,
+      "avg_price": 6.15,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "SHORT",
+      "transaction_type": "SELL",
+      "lot_size": 65,
+      "expiry": "UNKNOWN",
+      "instrument_token": "12025858"
+    },
+    "pe_buy": {
+      "symbol": "NIFTY2690123800PE",
+      "display_symbol": "NIFTY2690123800PE",
+      "strike": 23800,
+      "qty": 65,
+      "avg_price": 8.7,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "UNKNOWN",
+      "instrument_token": "12026370"
+    },
+    "pe_margin_hedge": {
+      "symbol": "NIFTY2690123050PE",
+      "display_symbol": "NIFTY2690123050PE",
+      "strike": 23050,
+      "qty": 65,
+      "avg_price": 1.05,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "UNKNOWN",
+      "instrument_token": "12018690"
+    },
+    "pe_dyn_hedge": {
+      "symbol": "NIFTY2690123600PE",
+      "display_symbol": "NIFTY2690123600PE",
+      "strike": 23600,
+      "qty": 65,
+      "avg_price": 3.2,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "UNKNOWN",
+      "instrument_token": "12024322"
+    },
+    "ce_margin_hedge": {
+      "symbol": "NIFTY2690125050CE",
+      "display_symbol": "NIFTY2690125050CE",
+      "strike": 25050,
+      "qty": 65,
+      "avg_price": 0.95,
+      "option_type": "CE",
+      "opt_type": "CE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "UNKNOWN",
+      "instrument_token": "12038914"
+    },
+    "ce_dyn_hedge": {
+      "symbol": "NIFTY2690124500CE",
+      "display_symbol": "NIFTY2690124500CE",
+      "strike": 24500,
+      "qty": 65,
+      "avg_price": 3.65,
+      "option_type": "CE",
+      "opt_type": "CE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "UNKNOWN",
+      "instrument_token": "12033282"
+    }
+  },
+  "ato": {
+    "ce_triggered": false,
+    "pe_triggered": true,
+    "ce_ato_active": false,
+    "pe_ato_active": false,
+    "ce_order_id": "260901170927200",
+    "pe_order_id": "260901170790901",
+    "ce_ato_exit_order_id": "260901170935369",
+    "pe_ato_exit_order_id": null,
+    "ce_protect_symbol": "NIFTY2690124400CE",
+    "pe_protect_symbol": "NIFTY2690123700PE",
+    "ce_protect_strike": 24400,
+    "pe_protect_strike": 23700,
+    "manage_sides": "both",
+    "ce_entry_buffer_points": "-275",
+    "pe_entry_buffer_points": "-365",
+    "ce_retrace_points": "277",
+    "pe_retrace_points": "368",
+    "poll_interval_seconds": 2,
+    "retrace_points": 70,
+    "idempotency": {
+      "2026-08-27:PE:SELL:NIFTY2690123900PE": null,
+      "2026-08-27:PE:BUY:NIFTY2690123900PE": "260827170830155",
+      "2026-08-28:PE:SELL:NIFTY2690123900PE": "260828170889547",
+      "2026-08-28:PE:BUY:NIFTY2690123900PE": null,
+      "2026-08-31:PE:SELL:NIFTY2690123900PE": "260831170532028",
+      "2026-08-31:PE:BUY:NIFTY2690123900PE": null,
+      "2026-08-31:PE:SELL:NIFTY2690123700PE": null,
+      "2026-08-31:PE:BUY:NIFTY2690123700PE": "260831171033142",
+      "2026-09-01:PE:SELL:NIFTY2690123700PE": null,
+      "2026-09-01:PE:BUY:NIFTY2690123700PE": "260901170790901",
+      "2026-09-01:CE:SELL:NIFTY2690124400CE": "260901170935369",
+      "2026-09-01:CE:BUY:NIFTY2690124400CE": null
+    },
+    "pe_side_halted": false,
+    "pe_halt_reason": null,
+    "pe_buy_trigger": 1.05,
+    "pe_buy_limit": 1.15,
+    "pe_buy_oid": "260901170790901",
+    "pe_buy_qty": 65,
+    "pe_exit_qty": 65,
+    "pe_entry_option_premium": 1.1,
+    "pe_entry_replay_market_time": null,
+    "pe_awaiting_clearance": false,
+    "web_buy_fill_token": "CE|buy|260901170927200|2026-09-01T13:07:51.114173+05:30",
+    "web_sell_fill_token": "CE|sell|260901170935369|2026-09-01T13:10:51.472929+05:30",
+    "ce_side_halted": false,
+    "ce_halt_reason": null,
+    "ce_awaiting_clearance": false,
+    "ce_buy_trigger": 0.9,
+    "ce_buy_limit": 1.0,
+    "ce_buy_oid": "260901170927200",
+    "ce_buy_qty": 65,
+    "ce_exit_qty": 65,
+    "ce_entry_option_premium": null,
+    "ce_entry_replay_market_time": null
+  },
+  "risk": {
+    "break_even": {
+      "pe": null,
+      "ce": null,
+      "confirmed": false,
+      "source": {
+        "pe": null,
+        "ce": null
+      },
+      "skipped": false
+    }
+  },
+  "modules": {
+    "ratripal": {
+      "enabled": false
+    },
+    "prabhat_mukti": {
+      "enabled": false
+    }
+  },
+  "ratripal": {
+    "last_run_date": null,
+    "last_decision": null,
+    "pending": {
+      "request_id": null,
+      "response": null,
+      "sent_at": null
+    }
+  },
+  "prabhat_mukti": {
+    "handoff_file": null
+  },
+  "trailing": {
+    "active": false,
+    "peak_profit": 0,
+    "trailing_stop": null,
+    "hard_stop_hit": false
+  },
+  "hedge": {
+    "active": false,
+    "ce_symbol": null,
+    "pe_symbol": null,
+    "ce_order_id": null,
+    "pe_order_id": null
+  },
+  "active_modules": [],
+  "deployment": {
+    "confirmed": false,
+    "batman_complete": false,
+    "positions_confirmed_date": null,
+    "next_entry_date": null,
+    "registration_scope": {
+      "schema_version": 2,
+      "pe_enabled": true,
+      "ce_enabled": true,
+      "pe_managed_lots": 1,
+      "ce_managed_lots": 1,
+      "pe_ato_lots": 1,
+      "ce_ato_lots": 1,
+      "lot_size": 65
+    },
+    "file": "/home/ubuntu/Trading_Runtime_Rahul/Data/data/prod/deployments/batman_2026-08-31_14-50.json"
+  },
+  "algo": {
+    "paused": false,
+    "pause_reason": "pnl_exit_fired",
+    "paused_at": null,
+    "paused_by": null
+  },
+  "order_mode": "live",
+  "dyn_hedge": {
+    "exit_enabled": true,
+    "pe_exited_date": "2026-08-31",
+    "ce_exited_date": "2026-09-01"
+  },
+  "pnl_exit": {
+    "safe_on": false,
+    "tp_on": false,
+    "safe_level_rs": null,
+    "tp_level_rs": null,
+    "firing": false,
+    "last_reason": "safe_exit",
+    "last_pnl": 24.38,
+    "last_at": "2026-09-01T13:16:16.103055+05:30"
+  }
+}
