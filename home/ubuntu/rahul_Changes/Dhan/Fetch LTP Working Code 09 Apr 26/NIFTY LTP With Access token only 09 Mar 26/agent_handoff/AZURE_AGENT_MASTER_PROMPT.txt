@@ -1,0 +1,274 @@
+MASTER AGENT PROMPT (ULTRA-COMPLETE, EXECUTION-FIRST, ZERO-CONTEXT-LOSS)
+
+You are taking over an existing Python project for NIFTY LTP workflow using access-token-based authentication.
+You must continue from current state safely, with production-grade rigor, and leave clean handoff artifacts for future agents.
+
+==================================================
+A) CORE MISSION
+==================================================
+
+Primary mission:
+1) Preserve current working behavior.
+2) Increase reliability, observability, and maintainability.
+3) Avoid risky rewrites.
+4) Deliver changes in small, verifiable increments.
+5) Leave no ambiguity about what was changed, why, and what remains.
+
+Non-negotiable outcomes:
+- No secret leakage.
+- No silent failures.
+- Defensive handling for API/network/token issues.
+- Clear logs and operational runbook.
+- Clean next-agent handoff at end of each cycle.
+
+==================================================
+B) PROJECT CONTEXT (KNOWN)
+==================================================
+
+Project folder: NIFTY LTP With Access token only
+Main file: main.py
+Domain: Market data/trading utility (NIFTY LTP centered)
+Auth model: Access token flow expected (avoid unnecessary interactive auth dependency)
+
+Treat this code as potentially live-impacting.
+
+==================================================
+C) WORKING RULES
+==================================================
+
+1) Safety before speed.
+2) Minimal diffs; no broad rewrites.
+3) Behavior-preserving refactors only unless explicitly justified.
+4) Every change must include validation evidence.
+5) Separate FACTS from INFERENCES.
+6) Risk-tag every proposed change: LOW / MEDIUM / HIGH.
+7) If uncertain, instrument and prove via logs/tests.
+8) Never print/store credentials in logs or files.
+9) Maintain backward compatibility of startup flow when possible.
+10) Do not perform destructive repository actions.
+
+==================================================
+D) MANDATORY INITIAL EXECUTION (NO EDITS FIRST)
+==================================================
+
+Do all of the following before touching code:
+
+1) Codebase discovery
+- Identify entry points, modules, config, requirements, scripts.
+- Map control flow from start to API call to output/action.
+- Identify where token is loaded, validated, and consumed.
+
+2) Current State Audit (deliver in exact structure)
+- Entry points and runtime sequence
+- Auth/token lifecycle path
+- External API dependencies and failure surfaces
+- Data pipeline (input -> transform -> output)
+- Exception handling map
+- Retry/timeout map
+- Logging/observability map
+- Config/secrets map
+- Top operational risks (severity-ordered)
+- Quick wins (low-risk/high-value)
+
+3) Fact vs Inference table
+- Fact: directly observed in code/logs
+- Inference: likely but unproven behavior
+- Validation needed: how to prove each inference
+
+4) Plan of Record (phased, concrete)
+For each task include:
+- Objective
+- Files/functions affected
+- Risk level
+- Validation method
+- Rollback strategy
+
+After this, implement only Phase 1 and stop.
+
+==================================================
+E) PHASE PLAN (AUTHORITATIVE)
+==================================================
+
+Phase 1: Reliability Baseline (IMPLEMENT NOW)
+- Add robust input/response validation around key API calls.
+- Standardize exception handling for network/auth/parsing/runtime errors.
+- Add bounded retries + backoff for transient failures.
+- Add explicit request timeouts where external calls exist.
+- Improve structured logs for startup/auth/data-fetch/error/shutdown.
+- Ensure fatal startup conditions fail fast with clear error output and non-zero exit.
+
+Phase 2: Auth/Token Hardening (AFTER APPROVAL)
+- Token sanity checks pre-request.
+- Expiry-aware handling where available.
+- Distinguish auth failures from market-data failures.
+- Add actionable remediation messages for token issues.
+
+Phase 3: Maintainability Refactor (AFTER APPROVAL)
+- Extract complex blocks into small focused functions.
+- Reduce duplicated code paths.
+- Add targeted type hints/docstrings for non-obvious logic.
+- Keep public behavior stable.
+
+Phase 4: Validation + Ops Readiness (AFTER APPROVAL)
+- Add lightweight tests or deterministic validation scripts.
+- Add dry-run mode if any order-impacting path exists.
+- Create/upgrade README with setup/run/troubleshooting.
+- Add config reference and known limitations.
+
+==================================================
+F) STRICT ENGINEERING STANDARDS
+==================================================
+
+Error handling:
+- No broad except: pass.
+- Catch specific exceptions where possible.
+- Re-raise with context when needed.
+- Preserve stack traces where valuable.
+
+Retries/timeouts:
+- Retry only transient failures.
+- Use bounded attempts.
+- Use backoff (prefer jittered).
+- Do not retry deterministic validation errors.
+
+Parsing/validation:
+- Never trust API payload shape.
+- Validate presence/type/range of critical fields.
+- Fail with actionable diagnostics if malformed.
+
+Logging:
+- Structured and searchable.
+- Include: timestamp, operation, status, reason, latency (if possible), correlation key.
+- Do not include secrets/tokens.
+- Differentiate WARN (recoverable) vs ERROR (terminal).
+
+Config:
+- Centralize constants.
+- No hardcoded secrets.
+- Support env-driven knobs for timeout/retry/log-level.
+- Provide .env.example or equivalent if missing.
+
+==================================================
+G) TRADING-SENSITIVE PROTECTIONS
+==================================================
+
+If code path can influence trading behavior:
+- Mark HIGH RISK.
+- Add guardrails and explicit safety checks.
+- Default to conservative mode.
+- Require explicit enablement for behavior changes.
+- Prefer dry-run/noop in validation contexts.
+
+If order placement exists:
+- Ensure validation cannot place real orders accidentally.
+- Separate market-data read flow from order execution flow clearly.
+
+==================================================
+H) REQUIRED REPORT FORMAT (EVERY CYCLE)
+==================================================
+
+Use exactly this output template each cycle:
+
+1. Findings
+- Concise evidence-based bullets.
+
+2. Proposed Change
+- What + why + expected impact.
+
+3. Patch Summary
+- File-by-file, function-level changes.
+
+4. Risk Assessment
+- LOW/MEDIUM/HIGH with rationale.
+
+5. Validation Performed
+- Commands/tests run
+- Pass/fail results
+- Key evidence
+
+6. Residual Risks / Unknowns
+- What remains uncertain and why.
+
+7. Next Recommended Action
+- Single best next step.
+
+==================================================
+I) FINAL HANDOFF REQUIREMENTS (MANDATORY)
+==================================================
+
+At stop point, produce:
+
+1) Handoff Note for Next Agent
+- Completed phases
+- Pending tasks
+- Current risks
+- Assumptions in force
+- Exact next command(s) to run
+
+2) Change Log
+- Ordered list of all edits
+- Reason for each
+- Behavior impact summary
+
+3) Operational Runbook
+- Setup
+- Run
+- Expected outputs
+- Failure diagnosis flow
+
+4) Validation Ledger
+- What was validated
+- What remains unvalidated
+- Why
+
+==================================================
+J) DO-NOT LIST
+==================================================
+
+- Do not leak secrets/tokens.
+- Do not claim tests ran if not executed.
+- Do not ship unbounded retries.
+- Do not hide uncertain behavior.
+- Do not submit giant unreviewable patch sets.
+- Do not change startup semantics without explicit note + migration guidance.
+
+==================================================
+K) START COMMAND FOR THIS SESSION
+==================================================
+
+Start now in this exact order:
+
+1) Full code discovery (no edits)
+2) Current State Audit
+3) Fact vs Inference table
+4) Plan of Record
+5) Implement Phase 1 only
+6) Validate Phase 1 with evidence
+7) Stop and deliver handoff bundle
+
+==================================================
+L) OPTIONAL FAST TRACK MODE (ONLY IF REQUESTED)
+==================================================
+
+If asked to move faster:
+- Still do minimal audit
+- Implement only the highest-impact LOW/MEDIUM risk reliability fixes
+- Defer structural refactors
+- Keep full validation/reporting intact
+
+==================================================
+M) PLACEHOLDER FIELDS TO FILL AFTER SCAN
+==================================================
+
+Populate these as soon as discovered:
+- Runtime command:
+- Python version:
+- Dependency file:
+- API client libraries:
+- Token source path/mechanism:
+- Most critical failure point:
+- Most critical module/function:
+- Top 3 quick wins:
+- Top 3 unresolved risks:
+
+Proceed immediately.

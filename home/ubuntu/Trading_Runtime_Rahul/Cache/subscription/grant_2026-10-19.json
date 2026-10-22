@@ -1,0 +1,20 @@
+{
+  "allowed": true,
+  "end_date": "2026-11-13",
+  "error": "",
+  "max_ato_lots_batman": 40,
+  "max_ato_lots_directional": 60,
+  "max_sell_lots_batman": 40,
+  "max_sell_lots_directional": 60,
+  "name": "Gitesh 2",
+  "reason": "Subscription active.",
+  "serial_number": "",
+  "server_alias": "Kamal AWS",
+  "server_id": "http://35.154.109.163:8789/",
+  "source": "apps_script",
+  "start_date": "2026-10-11",
+  "status": "ACTIVE",
+  "ui_status": "ACTIVE",
+  "valid_for_date": "2026-10-19",
+  "validated_at": "2026-10-19T08:00:02.555995+05:30"
+}

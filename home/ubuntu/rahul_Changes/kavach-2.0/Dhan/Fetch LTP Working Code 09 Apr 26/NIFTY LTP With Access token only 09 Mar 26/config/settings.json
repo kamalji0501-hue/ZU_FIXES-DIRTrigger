@@ -1,0 +1,22 @@
+{
+  "trading": {
+    "exchange_segment": 0,
+    "security_id": "13",
+    "request_code": 15,
+    "default_symbol": "NIFTY"
+  },
+  "output": {
+    "external_base_dir": "H:\\RK Data\\Algo\\Daily Output"
+  },
+  "logging": {
+    "level": "INFO"
+  },
+  "api": {
+    "max_retries": 3,
+    "timeout_seconds": 30
+  },
+  "runtime": {
+    "continuous": true,
+    "poll_interval_seconds": 15
+  }
+}

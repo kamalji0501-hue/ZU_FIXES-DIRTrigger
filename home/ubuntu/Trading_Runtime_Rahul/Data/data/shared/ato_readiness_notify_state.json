@@ -1,0 +1,8 @@
+{
+  "last_sent_ts": 1792209010.6627843,
+  "last_text": "ATO BLOCKED: NIFTY cache stale 18308s \u2014 check Datafeedbot; CE protect already in book (NIFTY19OCT26C23050 qty=650). Check Datafeedbot.",
+  "armed": false,
+  "hard_key": "nifty_cache_stale|ce_protect_in_book",
+  "summary": "ATO BLOCKED \u2014 NIFTY cache stale 18308s \u2014 check Datafeedbot; CE protect already in book (NIFTY19OCT26C23050 qty=650)",
+  "checked_at": "2026-10-17T03:50:10+00:00"
+}

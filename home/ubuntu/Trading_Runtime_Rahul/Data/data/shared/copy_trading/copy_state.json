@@ -1,0 +1,12 @@
+{
+  "book": {},
+  "events": [],
+  "last_action": null,
+  "last_delivery": null,
+  "last_event": null,
+  "last_seq_received": 0,
+  "open_cycles": {},
+  "punch_log": [],
+  "seen_ids": [],
+  "seq": 0
+}

@@ -1,0 +1,2 @@
+ts_ist,date_ist,incident_id,status,operator_status,event_type,domain,module,scenario,severity,error_type,message,cause_hint,repeat_count,context_json
+12:27:16.175 IST,2026-09-10,kavach2::log_error,REPEAT,open,incident,kavach2,kavach,log_error,warning,,Zerodha broker connect failed: Zerodha api_key/access_token missing. Paste token on TOKEN or wait for feeder login.,Broker token issue — refresh JWT via Kavach TOKEN menu.,6,"{""logger"": ""run_kavach"", ""pathname"": ""/home/ubuntu/rahul_Changes/kavach-2.0/run_kavach2.py"", ""lineno"": 99, ""funcName"": ""_connect_broker""}"

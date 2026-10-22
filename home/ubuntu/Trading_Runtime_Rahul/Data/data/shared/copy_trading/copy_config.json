@@ -1,0 +1,10 @@
+{
+  "allow_copy": true,
+  "dry_run": true,
+  "lots": 1,
+  "peer_base_url": "http://13.232.109.26:8789",
+  "peer_vps_id": "master-rahul",
+  "receive_paused": false,
+  "role": "child",
+  "vps_id": "child-bot4"
+}

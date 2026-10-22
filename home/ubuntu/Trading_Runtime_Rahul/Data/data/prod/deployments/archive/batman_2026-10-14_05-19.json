@@ -1,0 +1,172 @@
+{
+  "schema_version": 1.1,
+  "strategy": "batman",
+  "order_mode": "live",
+  "deployed_at": "2026-10-14T05:19:40.863308+00:00",
+  "registered_at": "Wednesday 14-Oct-2026 at 05:19",
+  "file_name": "batman_2026-10-14_05-19.json",
+  "source": "kavach_web",
+  "retrace_points": 10,
+  "ato_manage_sides": "both",
+  "registration_scope": {
+    "schema_version": 2,
+    "pe_enabled": true,
+    "ce_enabled": true,
+    "pe_managed_lots": 10,
+    "ce_managed_lots": 10,
+    "pe_ato_lots": 10,
+    "ce_ato_lots": 10,
+    "lot_size": 65,
+    "expiry": "2026-10-19",
+    "expiry_label": "Expiry \u2014 19 Oct 2026"
+  },
+  "positions": {
+    "pe_buy": {
+      "symbol": "NIFTY19OCT26P22450",
+      "display_symbol": "NIFTY19OCT26P22450",
+      "strike": 22450,
+      "qty": 650,
+      "avg_price": 60.05,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "19 Oct 2026",
+      "instrument_token": ""
+    },
+    "pe_margin_hedge": {
+      "symbol": "NIFTY19OCT26P21700",
+      "display_symbol": "NIFTY19OCT26P21700",
+      "strike": 21700,
+      "qty": 650,
+      "avg_price": 5.95,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "19 Oct 2026",
+      "instrument_token": ""
+    },
+    "pe_dyn_hedge": {
+      "symbol": "NIFTY19OCT26P22200",
+      "display_symbol": "NIFTY19OCT26P22200",
+      "strike": 22200,
+      "qty": 195,
+      "avg_price": 24.15,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "19 Oct 2026",
+      "instrument_token": ""
+    },
+    "pe_sell": {
+      "symbol": "NIFTY19OCT26P22400",
+      "display_symbol": "NIFTY19OCT26P22400",
+      "strike": 22400,
+      "qty": 1300,
+      "avg_price": 49.8,
+      "option_type": "PE",
+      "opt_type": "PE",
+      "direction": "SHORT",
+      "transaction_type": "SELL",
+      "lot_size": 65,
+      "expiry": "19 Oct 2026",
+      "instrument_token": ""
+    },
+    "ce_buy": {
+      "symbol": "NIFTY19OCT26C22950",
+      "display_symbol": "NIFTY19OCT26C22950",
+      "strike": 22950,
+      "qty": 650,
+      "avg_price": 52.8,
+      "option_type": "CE",
+      "opt_type": "CE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "19 Oct 2026",
+      "instrument_token": ""
+    },
+    "ce_margin_hedge": {
+      "symbol": "NIFTY19OCT26C23700",
+      "display_symbol": "NIFTY19OCT26C23700",
+      "strike": 23700,
+      "qty": 650,
+      "avg_price": 2.4,
+      "option_type": "CE",
+      "opt_type": "CE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "19 Oct 2026",
+      "instrument_token": ""
+    },
+    "ce_dyn_hedge": {
+      "symbol": "NIFTY19OCT26C23200",
+      "display_symbol": "NIFTY19OCT26C23200",
+      "strike": 23200,
+      "qty": 195,
+      "avg_price": 15.05,
+      "option_type": "CE",
+      "opt_type": "CE",
+      "direction": "LONG",
+      "transaction_type": "BUY",
+      "lot_size": 65,
+      "expiry": "19 Oct 2026",
+      "instrument_token": ""
+    },
+    "ce_sell": {
+      "symbol": "NIFTY19OCT26C23000",
+      "display_symbol": "NIFTY19OCT26C23000",
+      "strike": 23000,
+      "qty": 1300,
+      "avg_price": 41.65,
+      "option_type": "CE",
+      "opt_type": "CE",
+      "direction": "SHORT",
+      "transaction_type": "SELL",
+      "lot_size": 65,
+      "expiry": "19 Oct 2026",
+      "instrument_token": ""
+    }
+  },
+  "ato": {
+    "pe_protect_symbol": "NIFTY19OCT26P22350",
+    "pe_protect_strike": 22350,
+    "pe_protect_strike_mode": "FIXED",
+    "ce_protect_symbol": "NIFTY19OCT26C23050",
+    "ce_protect_strike": 23050,
+    "ce_protect_strike_mode": "FIXED",
+    "ato_step": 50,
+    "ce_entry_buffer": {
+      "type": "CUSTOM",
+      "value": "0"
+    },
+    "pe_entry_buffer": {
+      "type": "CUSTOM",
+      "value": "0"
+    },
+    "ce_retrace_buffer": {
+      "type": "CUSTOM",
+      "value": "10"
+    },
+    "pe_retrace_buffer": {
+      "type": "CUSTOM",
+      "value": "10"
+    },
+    "ce_entry_buffer_points": 0,
+    "pe_entry_buffer_points": 0,
+    "ce_retrace_points": 10,
+    "pe_retrace_points": 10,
+    "poll_interval_seconds": 2
+  },
+  "status": "armed",
+  "calendar": {
+    "expiry_date": "2026-10-19",
+    "source": "registration_scope"
+  }
+}

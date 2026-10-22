@@ -1,0 +1,14 @@
+{
+  "ltp": 22687.65,
+  "updated_at": "2026-10-22T23:24:30.882386+05:30",
+  "last_changed_at": "2026-10-22T23:24:30.882386+05:30",
+  "source": "SHOONYA_REST",
+  "feed_healthy": true,
+  "poll_interval_seconds": 2,
+  "consecutive_failures": 0,
+  "unchanged_seconds": 0.0,
+  "collector": "datafeedbot",
+  "collector_pid": 400772,
+  "ready_for_consumers": true,
+  "cache_age_seconds": 0.0
+}

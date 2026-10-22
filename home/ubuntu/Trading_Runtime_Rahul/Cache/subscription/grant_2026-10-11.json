@@ -1,0 +1,20 @@
+{
+  "allowed": true,
+  "end_date": "2027-01-07",
+  "error": "",
+  "max_ato_lots_batman": 40,
+  "max_ato_lots_directional": 50,
+  "max_sell_lots_batman": 40,
+  "max_sell_lots_directional": 100,
+  "name": "Gitesh",
+  "reason": "Subscription active.",
+  "serial_number": "001",
+  "server_alias": "Gitesh Shoonya (Demo2 migrate)",
+  "server_id": "http://3.109.49.96:8789/",
+  "source": "file",
+  "start_date": "2026-09-01",
+  "status": "ACTIVE",
+  "ui_status": "ACTIVE",
+  "valid_for_date": "2026-10-11",
+  "validated_at": "2026-10-11T08:00:00.057774+05:30"
+}

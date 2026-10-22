@@ -1,0 +1,8 @@
+{
+  "ts": "2026-10-22T17:50:01",
+  "root": "/home/ubuntu/rahul_Changes",
+  "service": "batman-kavach2.service",
+  "service_action": "already_active",
+  "service_active": true,
+  "ok": true
+}

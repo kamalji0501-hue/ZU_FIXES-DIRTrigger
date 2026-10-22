@@ -1,0 +1,7 @@
+ts_ist,date_ist,event_type,status_label,source,scenario,severity,category,title,error_message,next_action,resolution_message,incident_id,repeat_count,routed_to_source,source_delivery_ok,routed_to_jagran,jagran_delivery_ok
+11:54:56.389 IST,2026-09-06,incident,REPEAT,KAVACH2,log_error,warning,kavach2,Log Error,Zerodha broker connect failed: Zerodha api_key/access_token missing. Paste token on TOKEN or wait for feeder login.,Broker token issue — refresh JWT via Kavach TOKEN menu.,,kavach2::log_error,2,False,False,False,False
+11:57:20.406 IST,2026-09-06,incident,REPEAT,KAVACH2,log_error,warning,kavach2,Log Error,Zerodha broker connect failed: Zerodha api_key/access_token missing. Paste token on TOKEN or wait for feeder login.,Broker token issue — refresh JWT via Kavach TOKEN menu.,,kavach2::log_error,3,False,False,False,False
+"11:57 IST, 06 Sep 2026",2026-09-06,incident,TRIGGERED,KAVACH2,incident_repeat_escalation,major,kavach2,Repeating incident (3x): Log Error,"Domain: KAVACH2 | Scenario: log_error
+Repeat count: 3 (threshold 3)
+Last error: Zerodha broker connect failed: Zerodha api_key/access_token missing. Paste token on TOKEN or wait for feeder login.
+Cause hint: Broker token issue — refresh JWT via Kavach TOKEN menu.",Inspect incident_dashboard.xlsx and domain CSV under data/analytics/incidents/by_domain/,,kavach2::incident_repeat_escalation,1,False,False,True,False

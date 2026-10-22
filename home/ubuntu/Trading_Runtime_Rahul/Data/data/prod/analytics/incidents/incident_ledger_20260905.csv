@@ -1,0 +1,2 @@
+ts_ist,date_ist,event_type,status_label,source,scenario,severity,category,title,error_message,next_action,resolution_message,incident_id,repeat_count,routed_to_source,source_delivery_ok,routed_to_jagran,jagran_delivery_ok
+17:28:48.923 IST,2026-09-05,incident,TRIGGERED,KAVACH2,log_error,warning,kavach2,Log Error,Zerodha broker connect failed: Zerodha api_key/access_token missing. Paste token on TOKEN or wait for feeder login.,Broker token issue — refresh JWT via Kavach TOKEN menu.,,kavach2::log_error,1,False,False,False,False

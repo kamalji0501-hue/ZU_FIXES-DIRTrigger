@@ -1,0 +1,17 @@
+{
+  "bot": "kavach2",
+  "status": "running",
+  "pid": 400816,
+  "updated_at": "2026-10-22T23:24:19.162667+05:30",
+  "deployment_confirmed": true,
+  "ce_ato_active": false,
+  "pe_ato_active": true,
+  "nifty_cache_ready": true,
+  "nifty_cache_detail": "LTP=22,687.65 age=0s collector=datafeedbot",
+  "broker_connected": true,
+  "ato_armed": false,
+  "ato_blocked_reasons": [
+    "outside_monitoring_window"
+  ],
+  "ato_summary": "ATO BLOCKED \u2014 Outside ATO monitoring window"
+}

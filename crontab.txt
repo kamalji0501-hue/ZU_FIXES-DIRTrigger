@@ -1,0 +1,4 @@
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+*/2 9-15 * * 1-5 /home/ubuntu/rahul_Changes/vps/ensure_market_stack.sh
+*/5 * * * * /home/ubuntu/rahul_Changes/vps/ensure_kavach2.sh
