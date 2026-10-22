@@ -1,0 +1,20 @@
+{
+  "allowed": true,
+  "end_date": "2026-11-12",
+  "error": "",
+  "max_ato_lots_batman": 40,
+  "max_ato_lots_directional": 60,
+  "max_sell_lots_batman": 40,
+  "max_sell_lots_directional": 60,
+  "name": "Pawan",
+  "reason": "Subscription active.",
+  "serial_number": "",
+  "server_alias": "Deepak aws",
+  "server_id": "http://15.206.171.83:8789/",
+  "source": "apps_script",
+  "start_date": "2026-10-10",
+  "status": "ACTIVE",
+  "ui_status": "ACTIVE",
+  "valid_for_date": "2026-10-11",
+  "validated_at": "2026-10-11T08:00:02.244137+05:30"
+}

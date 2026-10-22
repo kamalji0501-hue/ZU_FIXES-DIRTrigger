@@ -1,0 +1,20 @@
+{
+  "allowed": true,
+  "end_date": "2026-11-07",
+  "error": "",
+  "max_ato_lots_batman": 48,
+  "max_ato_lots_directional": 60,
+  "max_sell_lots_batman": 48,
+  "max_sell_lots_directional": 60,
+  "name": "Tejas",
+  "reason": "Subscription active.",
+  "serial_number": "",
+  "server_alias": "Pankaj AWS",
+  "server_id": "http://65.2.152.185:8789/",
+  "source": "apps_script",
+  "start_date": "2026-10-06",
+  "status": "ACTIVE",
+  "ui_status": "ACTIVE",
+  "valid_for_date": "2026-10-07",
+  "validated_at": "2026-10-07T08:00:02.980992+05:30"
+}

@@ -1,0 +1,18 @@
+{
+  "bot": "kavach2",
+  "status": "running",
+  "pid": 163383,
+  "updated_at": "2026-10-22T23:21:45.860592+05:30",
+  "deployment_confirmed": false,
+  "ce_ato_active": false,
+  "pe_ato_active": false,
+  "nifty_cache_ready": true,
+  "nifty_cache_detail": "LTP=22,687.65 age=2s collector=datafeedbot",
+  "broker_connected": true,
+  "ato_armed": false,
+  "ato_blocked_reasons": [
+    "deployment_not_confirmed",
+    "outside_monitoring_window"
+  ],
+  "ato_summary": "ATO BLOCKED \u2014 Deployment not confirmed \u2014 Register / Arm Kavach first; Outside ATO monitoring window"
+}

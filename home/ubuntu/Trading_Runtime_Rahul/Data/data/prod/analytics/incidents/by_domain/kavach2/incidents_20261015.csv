@@ -1,0 +1,2 @@
+ts_ist,date_ist,incident_id,status,operator_status,event_type,domain,module,scenario,severity,error_type,message,cause_hint,repeat_count,context_json
+09:53:00.378 IST,2026-10-15,kavach2::log_critical,TRIGGERED,open,incident,kavach2,pnl_exit_guard,log_critical,critical,,PNL EXIT FIRE reason=manual_exit pnl=-295.75 level=none,Critical log level — inspect stack trace and robot health.,1,"{""logger"": ""batman.pnl_exit_guard"", ""pathname"": ""/home/ubuntu/rahul_Changes/kavach-2.0/core/pnl_exit_guard.py"", ""lineno"": 459, ""funcName"": ""flatten_now""}"

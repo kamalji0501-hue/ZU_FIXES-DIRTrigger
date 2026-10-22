@@ -1,0 +1,13 @@
+{
+  "kavach2::log_error": {
+    "operator_status": "open",
+    "domain": "kavach2",
+    "scenario": "log_error",
+    "fingerprint": "log error::pe side halted reason=batman_qty_drift \u2014 pe will not buy until resume. check broker book.",
+    "first_seen": "2026-10-21T12:25:10.410211+05:30",
+    "last_seen": "2026-10-21T12:25:10.410211+05:30",
+    "repeat_count": 1,
+    "title": "Log Error",
+    "repeat_jagran_sent": false
+  }
+}

@@ -1,0 +1,2 @@
+ts_ist,date_ist,event_type,status_label,source,scenario,severity,category,title,error_message,next_action,resolution_message,incident_id,repeat_count,routed_to_source,source_delivery_ok,routed_to_jagran,jagran_delivery_ok
+09:53:00.378 IST,2026-10-15,incident,TRIGGERED,KAVACH2,log_critical,critical,kavach2,Log Critical,PNL EXIT FIRE reason=manual_exit pnl=-295.75 level=none,Critical log level — inspect stack trace and robot health.,,kavach2::log_critical,1,False,False,False,False

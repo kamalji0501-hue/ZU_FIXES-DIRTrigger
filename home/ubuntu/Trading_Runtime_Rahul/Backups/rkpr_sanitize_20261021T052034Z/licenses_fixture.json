@@ -1,0 +1,17 @@
+{
+  "subscriptions": [
+    {
+      "serial_number": "TEJAS-001",
+      "name": "Tejas",
+      "server_id": "http://65.2.152.185:8789/",
+      "start_date": "2026-10-06",
+      "end_date": "2027-04-06",
+      "max_sell_lots_directional": 1,
+      "max_ato_lots_directional": 1,
+      "max_sell_lots_batman": 1,
+      "max_ato_lots_batman": 1,
+      "server_alias": "Tejas Lightsail",
+      "status": "ACTIVE"
+    }
+  ]
+}

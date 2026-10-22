@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="day">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Command Center</title>
+  <link rel="stylesheet" href="/fleet/static/fleet.css?v=pair04-header2" />
+  <link rel="icon" href="/static/logo.png" />
+</head>
+<body>
+  <div id="loginGate" class="login-gate">
+    <div class="login-card glass">
+      <img class="login-logo" src="/static/logo.png" alt="KDFINSCHOOL" />
+      <h1>Command Center</h1>
+      <p class="muted">Master + children fleet ops</p>
+      <form id="loginForm">
+        <input id="pw" type="password" placeholder="Fleet password" autocomplete="current-password" required />
+        <button class="btn primary" type="submit">Enter</button>
+      </form>
+      <p id="loginErr" class="err" hidden></p>
+    </div>
+  </div>
+
+  <div id="app" class="app" hidden>
+    <header class="top glass">
+      <div class="brand">
+        <img class="logo-main" src="/static/logo.png" alt="KDFINSCHOOL" />
+        <div>
+          <h1>COMMAND CENTER</h1>
+          <div class="bar"></div>
+        </div>
+      </div>
+      <div class="market-box glass-lite" id="marketBox" title="Nifty + IST time">
+        <div class="market-nifty">
+          <span>NIFTY</span>
+          <strong id="niftyVal">—</strong>
+        </div>
+        <div class="market-time">
+          <div class="clock" id="clock">--:--:--</div>
+          <div class="clock-sub" id="clockDate">IST</div>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="theme-toggle icon-toggle" id="themeToggle" role="group" aria-label="Day night">
+          <button type="button" data-theme="day" class="on" title="Day mode" aria-label="Day">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></svg>
+          </button>
+          <button type="button" data-theme="night" title="Night mode" aria-label="Night">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M21 14.5A8.5 8.5 0 0 1 9.5 3 7 7 0 1 0 21 14.5z"/></svg>
+          </button>
+        </div>
+        <button type="button" class="btn ghost" id="logoutBtn">Logout</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="zone master-zone">
+        <div class="zone-title master-zone-title">MASTER</div>
+        <div class="master-wrap" id="masterWrap"></div>
+      </section>
+
+      <section class="zone child-zone">
+        <div class="zone-title child-zone-title">CHILDREN <small id="childCountLabel">(0 live · slots ready)</small></div>
+        <div class="child-grid" id="childGrid"></div>
+      </section>
+    </main>
+
+    <footer class="totals glass totals-hero" id="totals">
+      <div class="totals-label">FLEET TOTAL</div>
+      <div class="orb-row" id="orbRow"></div>
+      <div class="tot-metrics">
+        <div class="tot-cell"><span>Total Day PnL</span><strong id="totPnl">—</strong></div>
+        <div class="tot-cell"><span>Total Margin Free</span><strong id="totMargin">—</strong></div>
+        <div class="tot-cell"><span>Children</span><strong id="totKids">0</strong></div>
+        <div class="tot-cell"><span>Links Up</span><strong id="totLinks">—</strong></div>
+      </div>
+      <div class="tot-meta">
+        <span id="updatedAt">—</span>
+        <button type="button" class="btn small" id="refreshBtn">Refresh</button>
+        <button type="button" class="btn small" id="refreshMarginBtn">Refresh margin</button>
+      </div>
+    </footer>
+  </div>
+
+  <div id="confirmModal" class="modal" hidden>
+    <div class="modal-card glass">
+      <h3 id="confirmTitle">Confirm</h3>
+      <p id="confirmBody"></p>
+      <div class="modal-actions">
+        <button type="button" class="btn ghost" id="confirmCancel">Cancel</button>
+        <button type="button" class="btn danger" id="confirmOk">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" hidden></div>
+  <script src="/fleet/static/fleet.js?v=pair04-header2"></script>
+</body>
+</html>

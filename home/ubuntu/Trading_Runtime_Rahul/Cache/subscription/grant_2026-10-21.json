@@ -1,0 +1,20 @@
+{
+  "allowed": true,
+  "end_date": "2026-11-15",
+  "error": "",
+  "max_ato_lots_batman": 40,
+  "max_ato_lots_directional": 60,
+  "max_sell_lots_batman": 40,
+  "max_sell_lots_directional": 60,
+  "name": "Rahul ji",
+  "reason": "Subscription active.",
+  "serial_number": "",
+  "server_alias": "Rahul AWS",
+  "server_id": "http://16.4.5.141:8789/",
+  "source": "apps_script",
+  "start_date": "2026-10-13",
+  "status": "ACTIVE",
+  "ui_status": "ACTIVE",
+  "valid_for_date": "2026-10-21",
+  "validated_at": "2026-10-21T11:55:25.239884+05:30"
+}
